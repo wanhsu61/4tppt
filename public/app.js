@@ -108,16 +108,27 @@ let galleryLoaded = false;
 let templates = [];
 let activeCategory = '全部';
 
+let isStaticMode = false;
+
 const tplResolver = (id) => (src) => {
   if (!src) return '';
   if (/^(https?:|data:)/i.test(src)) return src;
-  return `/tpl/${encodeURIComponent(id)}/${String(src).split('/').map(encodeURIComponent).join('/')}`;
+  const rel = String(src).split('/').map(encodeURIComponent).join('/');
+  return isStaticMode
+    ? `./templates/${encodeURIComponent(id)}/${rel}`
+    : `/tpl/${encodeURIComponent(id)}/${rel}`;
 };
 
 async function loadGallery() {
   const grid = $('#template-grid');
   try {
-    const data = await api('/api/templates');
+    let data;
+    try {
+      data = await api('./api/templates');
+    } catch {
+      data = await api('./data/templates.json');
+      isStaticMode = true;
+    }
     templates = data.templates;
     galleryLoaded = true;
   } catch (e) {
@@ -190,7 +201,19 @@ function renderGrid() {
 
 const deckCache = new Map();
 async function fetchDeck(id) {
-  if (!deckCache.has(id)) deckCache.set(id, api('/api/templates/' + encodeURIComponent(id)).then((d) => d.deck));
+  if (!deckCache.has(id)) {
+    const fetcher = async () => {
+      try {
+        const d = await api('./api/templates/' + encodeURIComponent(id));
+        return d.deck;
+      } catch {
+        const d = await api('./data/templates/' + encodeURIComponent(id) + '.json');
+        isStaticMode = true;
+        return d.deck;
+      }
+    };
+    deckCache.set(id, fetcher());
+  }
   try {
     return await deckCache.get(id);
   } catch (e) {
@@ -1099,23 +1122,54 @@ async function generate() {
   $('#busy').hidden = false;
   $('#btn-generate').disabled = true;
   try {
-    const r = await api('/api/generate', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-    });
-    showResult(r);
-    // 自动开始下载
-    const a = h('a', { href: r.download, download: r.title + '.pptx' });
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-  } catch (e) {
-    showError(e.message);
+    let r;
+    try {
+      r = await api('./api/generate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      showResult(r);
+      // 自动开始下载
+      const a = h('a', { href: r.download, download: r.title + '.pptx' });
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    } catch (e) {
+      if (isStaticMode || e.message.includes('404') || e.message.includes('405')) {
+        showStaticExportModal(payload);
+      } else {
+        showError(e.message);
+      }
+    }
   } finally {
     $('#busy').hidden = true;
     $('#btn-generate').disabled = false;
   }
+}
+
+function showStaticExportModal(payload) {
+  const body = $('#result-body');
+  body.innerHTML = '';
+  const jsonBlob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+  const jsonUrl = URL.createObjectURL(jsonBlob);
+  body.appendChild(
+    h(
+      'div',
+      { class: 'result' },
+      h('div', { class: 'icon-ok', text: '★' }),
+      h('h2', { text: 'GitHub Pages 在线演示模式' }),
+      h('p', { class: 'muted', text: `已就绪 · ${payload.title} · 共 ${payload.pages?.length || 0} 页` }),
+      h('p', { style: { fontSize: '13px', lineHeight: '1.6', color: '#475569', textAlign: 'left', margin: '16px 0', background: '#f8fafc', padding: '12px 16px', borderRadius: '8px' }, text: '当前部署在 GitHub Pages 纯静态环境。静态环境已完整支持所有模板的实时多设备预览与在线编辑。若需一键编译为离线 PPTX，请克隆仓库并在本地执行 npm start 启动官方 WASM 导出服务。您也可以下载当前编辑好的项目配置 JSON：' }),
+      h(
+        'div',
+        { class: 'actions' },
+        h('a', { class: 'btn primary', href: jsonUrl, download: `${payload.title || 'deck'}.pptd.json`, text: '下载 PPTD 数据 JSON' }),
+        h('button', { class: 'btn', text: '继续在线编辑', onclick: () => $('#result-dialog').close() }),
+      ),
+    ),
+  );
+  $('#result-dialog').showModal();
 }
 
 function showResult(r) {
@@ -1171,10 +1225,23 @@ async function loadHistory() {
   const box = $('#history-list');
   box.innerHTML = '<div class="empty">加载中…</div>';
   try {
-    const { items } = await api('/api/history');
+    let items = [];
+    try {
+      const res = await api('./api/history');
+      items = res.items || [];
+    } catch {
+      items = [];
+    }
     box.innerHTML = '';
     if (!items.length) {
-      box.appendChild(h('div', { class: 'empty', text: '还没有生成过 PPT。' }));
+      box.appendChild(
+        h('div', {
+          class: 'empty',
+          text: isStaticMode
+            ? '在线演示模式不保留服务器历史记录。在本地执行 npm start 启动服务即可保存与查看全部生成记录。'
+            : '还没有生成过 PPT。',
+        }),
+      );
       return;
     }
     for (const it of items) {
