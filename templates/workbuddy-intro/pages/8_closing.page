@@ -1,0 +1,151 @@
+pageType: final
+background:
+  type: solid
+  color: "$white"
+elements:
+  - elementId: top-meta
+    elementType: text
+    bounds: [60, 42, 500, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      bold: true
+      letterSpacing: 3
+      text: "07 · THE FUTURE OF WORK"
+  - elementId: top-rule
+    elementType: line
+    bounds: [60, 68, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: center-container
+    elementType: shape
+    bounds: [120, 100, 720, 340]
+    shapeName: rect
+    fill: {type: solid, color: "$grayLight"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: center-tag
+    elementType: text
+    bounds: [140, 128, 680, 20]
+    content:
+      fontSize: 11
+      color: "$accent"
+      bold: true
+      align: [center, middle]
+      letterSpacing: 2
+      text: "THE NEW ERA OF HUMAN-AI COLLABORATION"
+  - elementId: final-title
+    elementType: text
+    bounds: [140, 158, 680, 50]
+    content:
+      style: "$sectionTitle"
+      align: [center, middle]
+      text: "开启人机协同办公新时代"
+  - elementId: final-subtitle
+    elementType: text
+    bounds: [140, 212, 680, 26]
+    content:
+      fontSize: 17
+      color: "$primary"
+      bold: true
+      align: [center, middle]
+      letterSpacing: 1
+      text: "WorkBuddy · 让工作更自由，让交付更敏捷"
+  - elementId: final-divider
+    elementType: shape
+    bounds: [456, 248, 48, 2]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: final-vision
+    elementType: text
+    bounds: [180, 262, 600, 50]
+    content:
+      fontSize: 13
+      color: "$grayText"
+      lineHeight: 1.7
+      align: [center, middle]
+      text: |
+        连接人、智能体集群与业务应用生态，
+        成为每一位知识工作者与研发工程师身边最值得信赖的数字同事。
+  - elementId: tag-1
+    elementType: shape
+    bounds: [195, 335, 120, 32]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$accent"}
+  - elementId: tag-1-t
+    elementType: text
+    bounds: [195, 341, 120, 20]
+    content:
+      fontSize: 11
+      color: "$accent"
+      bold: true
+      align: [center, middle]
+      text: "自主闭环交付"
+  - elementId: tag-2
+    elementType: shape
+    bounds: [330, 335, 135, 32]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$primary"}
+  - elementId: tag-2-t
+    elementType: text
+    bounds: [330, 341, 135, 20]
+    content:
+      fontSize: 11
+      color: "$primary"
+      bold: true
+      align: [center, middle]
+      text: "100+ 专家 Agent"
+  - elementId: tag-3
+    elementType: shape
+    bounds: [480, 335, 135, 32]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$primary"}
+  - elementId: tag-3-t
+    elementType: text
+    bounds: [480, 341, 135, 20]
+    content:
+      fontSize: 11
+      color: "$primary"
+      bold: true
+      align: [center, middle]
+      text: "多模型按需调度"
+  - elementId: tag-4
+    elementType: shape
+    bounds: [630, 335, 135, 32]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$accent"}
+  - elementId: tag-4-t
+    elementType: text
+    bounds: [630, 341, 135, 20]
+    content:
+      fontSize: 11
+      color: "$accent"
+      bold: true
+      align: [center, middle]
+      text: "企业级安全可控"
+  - elementId: bottom-rule
+    elementType: line
+    bounds: [60, 480, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: footer-meta
+    elementType: text
+    bounds: [60, 492, 400, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      letterSpacing: 1
+      text: "WORKBUDDY MONOGRAPH · 2026 EDITION"
+  - elementId: page-num
+    elementType: text
+    bounds: [840, 492, 60, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      align: [right, middle]
+      text: "08 / 08"

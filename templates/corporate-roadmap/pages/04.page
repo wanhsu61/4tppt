@@ -1,0 +1,1261 @@
+pageType: content
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: table-1
+  elementType: table
+  bounds:
+  - 54
+  - 167.64
+  - 852
+  - 333.91
+  columnWidths:
+  - 0.11
+  - 0.07
+  - 0.07
+  - 0.07
+  - 0.07
+  - 0.07
+  - 0.07
+  - 0.07
+  - 0.07
+  - 0.07
+  - 0.07
+  - 0.07
+  - 0.07
+  rowHeights:
+  - 0.12
+  - 0.22
+  - 0.22
+  - 0.22
+  - 0.22
+  rows:
+  - - text: '2026'
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+    - text: 1月
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 2月
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 3月
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 4月
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 5月
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 6月
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 7月
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 8月
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 9月
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 10月
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 11月
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 12月
+      fontSize: 12
+      color: '#000000'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+  - - text: |
+        系统
+        升级
+      fontSize: 12
+      color: '#000000'
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+  - - text: |
+        渠道
+        拓展
+      fontSize: 12
+      color: '#000000'
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+  - - text: |
+        产品
+        研发
+      fontSize: 12
+      color: '#000000'
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+  - - text: |
+        品牌
+        推广
+      fontSize: 12
+      color: '#000000'
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+- elementId: line-2
+  elementType: line
+  bounds:
+  - 145.59
+  - 242.92
+  - 245.62
+  - 0.01
+  viewBox:
+  - 245.62
+  - 0.01
+  points: 0,0 245.62,0.01
+  border:
+    style: solid
+    width: 15
+    color: $accent
+- elementId: line-3
+  elementType: line
+  bounds:
+  - 339.47
+  - 310.15
+  - 245.62
+  - 0.01
+  viewBox:
+  - 245.62
+  - 0.01
+  points: 0,0 245.62,0.01
+  border:
+    style: solid
+    width: 15
+    color: $primary
+- elementId: line-4
+  elementType: line
+  bounds:
+  - 528.79
+  - 384.66
+  - 245.62
+  - 0.01
+  viewBox:
+  - 245.62
+  - 0.01
+  points: 0,0 245.62,0.01
+  border:
+    style: solid
+    width: 15
+    color: $accent
+- elementId: line-5
+  elementType: line
+  bounds:
+  - 660.38
+  - 459.38
+  - 245.62
+  - 0.01
+  viewBox:
+  - 245.62
+  - 0.01
+  points: 0,0 245.62,0.01
+  border:
+    style: solid
+    width: 15
+    color: $primary
+- elementId: shape-6
+  elementType: shape
+  bounds:
+  - 0
+  - 42.6
+  - 39.52
+  - 60.88
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: text-7
+  elementType: text
+  bounds:
+  - 51.18
+  - 43
+  - 565.2
+  - 60.5
+  content:
+    fontFamily: MiSans
+    fontSize: 50
+    color: '#000000'
+    bold: true
+    lineHeight: 1.2
+    text: 年度重点项目排期
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-8
+  elementType: text
+  bounds:
+  - 51.18
+  - 118.39
+  - 549.54
+  - 29.17
+  content:
+    fontFamily: MiSans
+    fontSize: 23.33
+    color: '#000000'
+    lineHeight: 1.3
+    text: 按月份追踪四项重点工作的推进节奏。
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: image-9
+  elementType: image
+  bounds:
+  - 857.01
+  - 29.78
+  - 57.15
+  - 58.34
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-10
+  elementType: image
+  bounds:
+  - 842.48
+  - 73.3
+  - 27.88
+  - 28.45
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90

@@ -1,0 +1,55 @@
+version: v2
+title: WorkBuddy · 全场景 AI Agent 数字同事协同平台
+size: [960, 540]
+theme:
+  colors:
+    primary: "#1A1A1A"
+    accent: "#9D5A37"
+    accentLight: "#B87333"
+    grayDark: "#262626"
+    grayText: "#525252"
+    grayMuted: "#737373"
+    grayLight: "#F8F8FA"
+    grayBorder: "#E5E5E5"
+    white: "#FFFFFF"
+  textStyles:
+    label:
+      fontSize: 11
+      color: "$accent"
+      bold: true
+      letterSpacing: 3
+    pageTitle:
+      fontSize: 30
+      color: "$primary"
+      bold: true
+      letterSpacing: 1
+    coverTitle:
+      fontSize: 56
+      color: "$primary"
+      bold: true
+      letterSpacing: 2
+    sectionTitle:
+      fontSize: 36
+      color: "$primary"
+      bold: true
+      letterSpacing: 2
+    body:
+      fontSize: 13
+      color: "$grayText"
+      lineHeight: 1.6
+    statNum:
+      fontSize: 40
+      color: "$primary"
+      bold: true
+    statLabel:
+      fontSize: 12
+      color: "$grayMuted"
+pages:
+  - pages/1_cover.page
+  - pages/2_positioning.page
+  - pages/3_workflows.page
+  - pages/4_architecture.page
+  - pages/5_scenarios.page
+  - pages/6_memory_security.page
+  - pages/7_value_roi.page
+  - pages/8_closing.page

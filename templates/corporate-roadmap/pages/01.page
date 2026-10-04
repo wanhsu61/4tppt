@@ -1,0 +1,170 @@
+pageType: cover
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: shape-1
+  elementType: shape
+  bounds:
+  - 0
+  - 0
+  - 589.62
+  - 540
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: image-2
+  elementType: image
+  bounds:
+  - 44.42
+  - 128.06
+  - 568.75
+  - 217.13
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.08
+    top: 0.06
+    bottom: 0.59
+- elementId: image-3
+  elementType: image
+  bounds:
+  - 527.87
+  - 0
+  - 432.13
+  - 428.23
+  src: media/image3.jpg
+  fit:
+    mode: fill
+  crop:
+    right: 0.25
+    top: 0.01
+- elementId: image-4
+  elementType: image
+  bounds:
+  - 547.55
+  - 17.73
+  - 392.77
+  - 392.77
+  src: media/image4.gif
+  fit:
+    mode: fill
+- elementId: shape-5
+  elementType: shape
+  bounds:
+  - 777.31
+  - 494.91
+  - 144.01
+  - 4.31
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: image-6
+  elementType: image
+  bounds:
+  - 557.56
+  - 399.07
+  - 57.15
+  - 58.34
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-7
+  elementType: image
+  bounds:
+  - 513.93
+  - 208.46
+  - 27.88
+  - 28.45
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-8
+  elementType: image
+  bounds:
+  - 857.01
+  - 29.78
+  - 57.15
+  - 58.34
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-9
+  elementType: image
+  bounds:
+  - 842.48
+  - 73.3
+  - 27.88
+  - 28.45
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-10
+  elementType: image
+  bounds:
+  - 732.93
+  - 468.22
+  - 34
+  - 34
+  src: media/image7.gif
+  fit:
+    mode: fill
+- elementId: text-11
+  elementType: text
+  bounds:
+  - 63.17
+  - 129.97
+  - 440.25
+  - 198
+  content:
+    fontFamily: MiSans
+    fontSize: 83.33
+    color: '#FFFFFF'
+    bold: true
+    lineHeight: 1.2
+    text: |
+      企业战略
+      路线图
+    align:
+    - left
+    - top
+- elementId: text-12
+  elementType: text
+  bounds:
+  - 777.81
+  - 461.93
+  - 141.09
+  - 29.17
+  content:
+    fontFamily: MiSans
+    fontSize: 23.33
+    color: '#000000'
+    lineHeight: 1.3
+    text: 年度规划
+    align:
+    - center
+    - top
+    wrap: false

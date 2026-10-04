@@ -1,0 +1,735 @@
+pageType: content
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: table-1
+  elementType: table
+  bounds:
+  - 54
+  - 192.06
+  - 852
+  - 275.26
+  columnWidths:
+  - 0.14
+  - 0.14
+  - 0.14
+  - 0.14
+  - 0.14
+  - 0.14
+  - 0.14
+  rowHeights:
+  - 0.15
+  - 0.21
+  - 0.21
+  - 0.21
+  - 0.21
+  rows:
+  - - text: 项目
+      fontSize: 12
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+    - text: 1 月
+      fontSize: 12
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 2 月
+      fontSize: 12
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 3 月
+      fontSize: 12
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 4 月
+      fontSize: 12
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 5 月
+      fontSize: 12
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - text: 6 月
+      fontSize: 12
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+  - - text: 组织调整
+      fontSize: 12
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $accent
+      border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 2.02
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+  - - text: 系统上线
+      fontSize: 12
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $accent
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+  - - text: 渠道签约
+      fontSize: 12
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $accent
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+    - fill:
+        type: solid
+        color: '#FFFFFF'
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: '#FFFFFF'
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+  - - text: 品牌发布
+      fontSize: 12
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $accent
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 2.02
+        color: '#FFFFFF'
+    - fill:
+        type: solid
+        color: '#FFFFFF'
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: '#FFFFFF'
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: '#FFFFFF'
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+    - fill:
+        type: solid
+        color: $light
+      border:
+      - style: solid
+        width: 1.5
+        color: '#000000'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+      - style: solid
+        width: 1.01
+        color: '#EDECED'
+      - style: solid
+        width: 1
+        color: '#EDECED'
+- elementId: shape-2
+  elementType: shape
+  bounds:
+  - 0
+  - 42.6
+  - 39.52
+  - 60.88
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: image-3
+  elementType: image
+  bounds:
+  - 857.01
+  - 29.78
+  - 57.15
+  - 58.34
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-4
+  elementType: image
+  bounds:
+  - 842.48
+  - 73.3
+  - 27.88
+  - 28.45
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: text-5
+  elementType: text
+  bounds:
+  - 51.18
+  - 43
+  - 565.2
+  - 60.5
+  content:
+    fontFamily: MiSans
+    fontSize: 50
+    color: '#000000'
+    bold: true
+    lineHeight: 1.2
+    text: 上半年行动计划
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-6
+  elementType: text
+  bounds:
+  - 51.18
+  - 118.39
+  - 549.54
+  - 29.17
+  content:
+    fontFamily: MiSans
+    fontSize: 23.33
+    color: '#000000'
+    lineHeight: 1.3
+    text: 六个月内各项行动的时间安排一览。
+    align:
+    - left
+    - top
+    wrap: false

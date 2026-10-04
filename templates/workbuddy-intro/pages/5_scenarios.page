@@ -1,0 +1,172 @@
+pageType: content
+background:
+  type: solid
+  color: "$white"
+elements:
+  - elementId: top-label
+    elementType: text
+    bounds: [60, 42, 500, 18]
+    content:
+      style: "$label"
+      text: "04 · PRODUCTION CASES"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 64, 800, 38]
+    content:
+      style: "$pageTitle"
+      text: "深入核心业务骨髓的四大生产力应用实践"
+  - elementId: page-subtitle
+    elementType: text
+    bounds: [60, 104, 800, 22]
+    content:
+      fontSize: 13
+      color: "$grayMuted"
+      text: "消除跨软件操作摩擦，无论研发工程师还是日常办公人员，皆可获得数倍效率杠杆"
+  - elementId: header-rule
+    elementType: line
+    bounds: [60, 134, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: band-1-bg
+    elementType: shape
+    bounds: [60, 150, 840, 70]
+    shapeName: rect
+    fill: {type: solid, color: "$grayLight"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: band-1-num
+    elementType: text
+    bounds: [80, 162, 50, 45]
+    content:
+      fontSize: 26
+      color: "$accent"
+      bold: true
+      align: [left, middle]
+      text: "01"
+  - elementId: band-1-title
+    elementType: text
+    bounds: [140, 160, 260, 24]
+    content:
+      fontSize: 14
+      color: "$primary"
+      bold: true
+      text: "自动化智能办公与文档生成"
+  - elementId: band-1-desc
+    elementType: text
+    bounds: [140, 184, 740, 26]
+    content:
+      fontSize: 12
+      color: "$grayText"
+      text: "海量 Excel 表格数据批量清洗透视 · 一键智能编排专业演示文稿并支持二次精修 · 会议纪要与周报自动提炼"
+  - elementId: band-2-bg
+    elementType: shape
+    bounds: [60, 228, 840, 70]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: band-2-num
+    elementType: text
+    bounds: [80, 240, 50, 45]
+    content:
+      fontSize: 26
+      color: "$primary"
+      bold: true
+      align: [left, middle]
+      text: "02"
+  - elementId: band-2-title
+    elementType: text
+    bounds: [140, 238, 260, 24]
+    content:
+      fontSize: 14
+      color: "$primary"
+      bold: true
+      text: "全栈软件研发与代码助手"
+  - elementId: band-2-desc
+    elementType: text
+    bounds: [140, 262, 740, 26]
+    content:
+      fontSize: 12
+      color: "$grayText"
+      text: "支持 React、TypeScript、Python 等主流全技术栈 · 完成工程初始化、组件构建、复杂接口联调与自动化部署"
+  - elementId: band-3-bg
+    elementType: shape
+    bounds: [60, 306, 840, 70]
+    shapeName: rect
+    fill: {type: solid, color: "$grayLight"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: band-3-num
+    elementType: text
+    bounds: [80, 318, 50, 45]
+    content:
+      fontSize: 26
+      color: "$accent"
+      bold: true
+      align: [left, middle]
+      text: "03"
+  - elementId: band-3-title
+    elementType: text
+    bounds: [140, 316, 260, 24]
+    content:
+      fontSize: 14
+      color: "$primary"
+      bold: true
+      text: "移动端跨端远程协同遥控"
+  - elementId: band-3-desc
+    elementType: text
+    bounds: [140, 340, 740, 26]
+    content:
+      fontSize: 12
+      color: "$grayText"
+      text: "深度整合企业微信、飞书、钉钉移动端 · 手机下达复杂长耗时指令，电脑端静默异步执行，随时回传交付产物"
+  - elementId: band-4-bg
+    elementType: shape
+    bounds: [60, 384, 840, 70]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: band-4-num
+    elementType: text
+    bounds: [80, 396, 50, 45]
+    content:
+      fontSize: 26
+      color: "$primary"
+      bold: true
+      align: [left, middle]
+      text: "04"
+  - elementId: band-4-title
+    elementType: text
+    bounds: [140, 394, 260, 24]
+    content:
+      fontSize: 14
+      color: "$primary"
+      bold: true
+      text: "商业情报监控与商机研判"
+  - elementId: band-4-desc
+    elementType: text
+    bounds: [140, 418, 740, 26]
+    content:
+      fontSize: 12
+      color: "$grayText"
+      text: "全网多渠道监测行业竞品动作与社交舆情波动 · 多维度挖掘蓝海词与潜在高价值商机 · 沉淀结构化战略决策建议"
+  - elementId: bottom-rule
+    elementType: line
+    bounds: [60, 480, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: footer-meta
+    elementType: text
+    bounds: [60, 492, 400, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      letterSpacing: 1
+      text: "WORKBUDDY MONOGRAPH · PRODUCTION CASES"
+  - elementId: page-num
+    elementType: text
+    bounds: [840, 492, 60, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      align: [right, middle]
+      text: "05 / 08"

@@ -1,0 +1,220 @@
+pageType: content
+background:
+  type: solid
+  color: "$white"
+elements:
+  - elementId: top-label
+    elementType: text
+    bounds: [60, 42, 500, 18]
+    content:
+      style: "$label"
+      text: "02 · OPERATIONAL WORKFLOWS"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 64, 800, 38]
+    content:
+      style: "$pageTitle"
+      text: "自适应三大工作流 · 兼顾敏捷交付与深度规划"
+  - elementId: page-subtitle
+    elementType: text
+    bounds: [60, 104, 800, 22]
+    content:
+      fontSize: 13
+      color: "$grayMuted"
+      text: "内置 Craft、Plan、Ask 三大多模式执行引擎，精准匹配从轻量日常操作到复杂系统工程"
+  - elementId: header-rule
+    elementType: line
+    bounds: [60, 134, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: col-1-bg
+    elementType: shape
+    bounds: [60, 150, 260, 305]
+    shapeName: rect
+    fill: {type: solid, color: "$grayLight"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: col-1-accent
+    elementType: shape
+    bounds: [60, 150, 260, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: col-1-num
+    elementType: text
+    bounds: [80, 165, 220, 18]
+    content:
+      fontSize: 11
+      color: "$accent"
+      bold: true
+      letterSpacing: 2
+      text: "MODE I · ACTION"
+  - elementId: col-1-title
+    elementType: text
+    bounds: [80, 186, 220, 28]
+    content:
+      fontSize: 18
+      color: "$primary"
+      bold: true
+      text: "Craft (执行模式)"
+  - elementId: col-1-lead
+    elementType: text
+    bounds: [80, 218, 220, 75]
+    content:
+      fontSize: 12
+      color: "$grayText"
+      lineHeight: 1.6
+      text: |
+        针对明确任务直接行动。无需多余交互，自动调动文件、工具与系统环境，快速交付成果。
+  - elementId: col-1-div
+    elementType: line
+    bounds: [80, 298, 220, 1]
+    viewBox: [220, 1]
+    points: "0,0.5 220,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: col-1-cases
+    elementType: text
+    bounds: [80, 312, 220, 130]
+    content:
+      fontSize: 12
+      color: "$primary"
+      lineHeight: 1.7
+      text: |
+        <p style="font-weight:700; color:#9D5A37;">典型产出成果：</p>
+        <p style="margin-top:6px;">• 一键编排专业汇报 PPT</p>
+        <p>• 批量处理与透视 Excel 数据</p>
+        <p>• 编写与调试代码功能模块</p>
+        <p>• 多格式文档智能清洗转换</p>
+  - elementId: col-2-bg
+    elementType: shape
+    bounds: [350, 150, 260, 305]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$primary"}
+  - elementId: col-2-accent
+    elementType: shape
+    bounds: [350, 150, 260, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$primary"}
+  - elementId: col-2-num
+    elementType: text
+    bounds: [370, 165, 220, 18]
+    content:
+      fontSize: 11
+      color: "$primary"
+      bold: true
+      letterSpacing: 2
+      text: "MODE II · STRATEGY"
+  - elementId: col-2-title
+    elementType: text
+    bounds: [370, 186, 220, 28]
+    content:
+      fontSize: 18
+      color: "$primary"
+      bold: true
+      text: "Plan (规划模式)"
+  - elementId: col-2-lead
+    elementType: text
+    bounds: [370, 218, 220, 75]
+    content:
+      fontSize: 12
+      color: "$grayText"
+      lineHeight: 1.6
+      text: |
+        面向复杂大型项目。先生成任务拆解图与里程碑，经人工审阅确认后，有条不紊稳健推进。
+  - elementId: col-2-div
+    elementType: line
+    bounds: [370, 298, 220, 1]
+    viewBox: [220, 1]
+    points: "0,0.5 220,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: col-2-cases
+    elementType: text
+    bounds: [370, 312, 220, 130]
+    content:
+      fontSize: 12
+      color: "$primary"
+      lineHeight: 1.7
+      text: |
+        <p style="font-weight:700; color:#1A1A1A;">典型产出成果：</p>
+        <p style="margin-top:6px;">• 全栈复杂应用架构搭建</p>
+        <p>• 跨团队业务方案落地拆解</p>
+        <p>• 深度全网竞品调研与研判</p>
+        <p>• 大型代码库架构重构方案</p>
+  - elementId: col-3-bg
+    elementType: shape
+    bounds: [640, 150, 260, 305]
+    shapeName: rect
+    fill: {type: solid, color: "$grayLight"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: col-3-accent
+    elementType: shape
+    bounds: [640, 150, 260, 3]
+    shapeName: rect
+    fill: {type: solid, color: "$grayMuted"}
+  - elementId: col-3-num
+    elementType: text
+    bounds: [660, 165, 220, 18]
+    content:
+      fontSize: 11
+      color: "$grayMuted"
+      bold: true
+      letterSpacing: 2
+      text: "MODE III · CONSULT"
+  - elementId: col-3-title
+    elementType: text
+    bounds: [660, 186, 220, 28]
+    content:
+      fontSize: 18
+      color: "$primary"
+      bold: true
+      text: "Ask (问答模式)"
+  - elementId: col-3-lead
+    elementType: text
+    bounds: [660, 218, 220, 75]
+    content:
+      fontSize: 12
+      color: "$grayText"
+      lineHeight: 1.6
+      text: |
+        针对专业知识查询、数据追溯与逻辑咨询。连接多源知识库与最新资讯，提供多维洞察。
+  - elementId: col-3-div
+    elementType: line
+    bounds: [660, 298, 220, 1]
+    viewBox: [220, 1]
+    points: "0,0.5 220,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: col-3-cases
+    elementType: text
+    bounds: [660, 312, 220, 130]
+    content:
+      fontSize: 12
+      color: "$primary"
+      lineHeight: 1.7
+      text: |
+        <p style="font-weight:700; color:#525252;">典型产出成果：</p>
+        <p style="margin-top:6px;">• 技术疑难杂症推演排查</p>
+        <p>• 行业前沿趋势与政策解读</p>
+        <p>• 团队内部私域知识库问答</p>
+        <p>• 方案比选与战略推演咨询</p>
+  - elementId: bottom-rule
+    elementType: line
+    bounds: [60, 480, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: footer-meta
+    elementType: text
+    bounds: [60, 492, 400, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      letterSpacing: 1
+      text: "WORKBUDDY MONOGRAPH · OPERATIONAL WORKFLOWS"
+  - elementId: page-num
+    elementType: text
+    bounds: [840, 492, 60, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      align: [right, middle]
+      text: "03 / 08"

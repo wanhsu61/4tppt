@@ -1,0 +1,156 @@
+pageType: content
+background:
+  type: solid
+  color: "$white"
+elements:
+  - elementId: top-label
+    elementType: text
+    bounds: [60, 42, 500, 18]
+    content:
+      style: "$label"
+      text: "06 · BUSINESS VALUE & ROI"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 64, 800, 38]
+    content:
+      style: "$pageTitle"
+      text: "重塑人机协同范式，释放数倍生产力潜能"
+  - elementId: page-subtitle
+    elementType: text
+    bounds: [60, 104, 800, 22]
+    content:
+      fontSize: 13
+      color: "$grayMuted"
+      text: "从「人类亲历亲为干苦力」到「人类把控方向、数字同事自主执行」，实现质的效能跃迁"
+  - elementId: header-rule
+    elementType: line
+    bounds: [60, 134, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: stat-1-bg
+    elementType: shape
+    bounds: [60, 150, 195, 105]
+    shapeName: rect
+    fill: {type: solid, color: "$grayLight"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: stat-1-num
+    elementType: text
+    bounds: [75, 160, 165, 50]
+    content:
+      align: [left, middle]
+      text: |
+        <p><span style="font-size:36px; font-weight:700; color:#1A1A1A;">75%</span><span style="font-size:22px; font-weight:700; color:#9D5A37;">+</span></p>
+  - elementId: stat-1-label
+    elementType: text
+    bounds: [75, 215, 165, 26]
+    content:
+      fontSize: 12
+      color: "$grayText"
+      text: "繁琐日常办公耗时缩减"
+  - elementId: stat-2-bg
+    elementType: shape
+    bounds: [275, 150, 195, 105]
+    shapeName: rect
+    fill: {type: solid, color: "$grayLight"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: stat-2-num
+    elementType: text
+    bounds: [290, 160, 165, 50]
+    content:
+      align: [left, middle]
+      text: |
+        <p><span style="font-size:36px; font-weight:700; color:#1A1A1A;">10</span><span style="font-size:24px; font-weight:700; color:#9D5A37;">x</span></p>
+  - elementId: stat-2-label
+    elementType: text
+    bounds: [290, 215, 165, 26]
+    content:
+      fontSize: 12
+      color: "$grayText"
+      text: "研发原型与组件交付提速"
+  - elementId: stat-3-bg
+    elementType: shape
+    bounds: [490, 150, 195, 105]
+    shapeName: rect
+    fill: {type: solid, color: "$grayLight"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: stat-3-num
+    elementType: text
+    bounds: [505, 160, 165, 50]
+    content:
+      align: [left, middle]
+      text: |
+        <p><span style="font-size:36px; font-weight:700; color:#1A1A1A;">100</span><span style="font-size:22px; font-weight:700; color:#9D5A37;">+</span></p>
+  - elementId: stat-3-label
+    elementType: text
+    bounds: [505, 215, 165, 26]
+    content:
+      fontSize: 12
+      color: "$grayText"
+      text: "细分领域专家 Agent 即用"
+  - elementId: stat-4-bg
+    elementType: shape
+    bounds: [705, 150, 195, 105]
+    shapeName: rect
+    fill: {type: solid, color: "$grayLight"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: stat-4-num
+    elementType: text
+    bounds: [720, 160, 165, 50]
+    content:
+      align: [left, middle]
+      text: |
+        <p><span style="font-size:36px; font-weight:700; color:#1A1A1A;">24</span><span style="font-size:24px; font-weight:700; color:#9D5A37;">/7</span></p>
+  - elementId: stat-4-label
+    elementType: text
+    bounds: [720, 215, 165, 26]
+    content:
+      fontSize: 12
+      color: "$grayText"
+      text: "全天候跨端移动自主运转"
+  - elementId: comp-panel-bg
+    elementType: shape
+    bounds: [60, 275, 840, 180]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: comp-title
+    elementType: text
+    bounds: [85, 290, 790, 24]
+    content:
+      fontSize: 14
+      color: "$primary"
+      bold: true
+      text: "组织生产力结构的根本性进化"
+  - elementId: comp-desc
+    elementType: text
+    bounds: [85, 320, 790, 115]
+    content:
+      fontSize: 12
+      color: "$primary"
+      lineHeight: 1.8
+      text: |
+        <p><span style="color:#737373;">【传统分散工作模式】</span> 知识工作者与工程师 <strong>70% 以上宝贵时间</strong>被消耗在枯燥格式对齐、跨应用反复搬运与基础重复性代码编写中，高价值创新思考受到严重挤压。</p>
+        <p style="margin-top:10px;"><span style="color:#9D5A37; font-weight:700;">【WorkBuddy 协同模式】</span> 员工晋升为<strong>业务决策者与目标制定官</strong>；复杂繁重的工作链路全权委托给 WorkBuddy 专家集群端到端闭环推进，达成「1 名核心骨干 + 专属数字团队」的超级个体生产力模式。</p>
+  - elementId: bottom-rule
+    elementType: line
+    bounds: [60, 480, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: footer-meta
+    elementType: text
+    bounds: [60, 492, 400, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      letterSpacing: 1
+      text: "WORKBUDDY MONOGRAPH · BUSINESS VALUE & ROI"
+  - elementId: page-num
+    elementType: text
+    bounds: [840, 492, 60, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      align: [right, middle]
+      text: "07 / 08"

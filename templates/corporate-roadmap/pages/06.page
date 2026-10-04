@@ -1,0 +1,263 @@
+pageType: content
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: shape-1
+  elementType: shape
+  bounds:
+  - 0
+  - 485
+  - 988.6
+  - 58.77
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: shape-2
+  elementType: shape
+  bounds:
+  - -14.57
+  - 42.6
+  - 54.09
+  - 60.88
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: image-3
+  elementType: image
+  bounds:
+  - 548.15
+  - 167.42
+  - 23.11
+  - 23.09
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    left: 0.45
+    right: 0.08
+    top: 0.06
+    bottom: 0.47
+- elementId: image-4
+  elementType: image
+  bounds:
+  - 548.9
+  - 385.61
+  - 23.11
+  - 23.09
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    left: 0.45
+    right: 0.08
+    top: 0.06
+    bottom: 0.47
+- elementId: image-5
+  elementType: image
+  bounds:
+  - 549.4
+  - 276.51
+  - 23.11
+  - 23.09
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    left: 0.45
+    right: 0.08
+    top: 0.06
+    bottom: 0.47
+- elementId: image-6
+  elementType: image
+  bounds:
+  - 61.12
+  - 136.18
+  - 413.92
+  - 407.59
+  src: media/image14.jpg
+  fit:
+    mode: fill
+  crop:
+    left: 0.28
+    right: 0.04
+- elementId: image-7
+  elementType: image
+  bounds:
+  - 857.01
+  - 29.78
+  - 57.15
+  - 58.34
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-8
+  elementType: image
+  bounds:
+  - 842.48
+  - 73.3
+  - 27.88
+  - 28.45
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-9
+  elementType: image
+  bounds:
+  - 70.51
+  - 152.25
+  - 391.46
+  - 385.73
+  src: media/image15.gif
+  fit:
+    mode: fill
+  crop:
+    left: 0.48
+  rotation: -90
+- elementId: image-10
+  elementType: image
+  bounds:
+  - 43.89
+  - 463.03
+  - 43.04
+  - 43.93
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: text-11
+  elementType: text
+  bounds:
+  - 584.47
+  - 164.46
+  - 240.64
+  - 25.22
+  content:
+    fontFamily: MiSans
+    fontSize: 21.33
+    color: $accent
+    bold: true
+    lineHeight: 1.2
+    text: 流程在线化
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-12
+  elementType: text
+  bounds:
+  - 584.47
+  - 197.23
+  - 240.64
+  - 42.3
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: '#000000'
+    lineHeight: 1.4
+    text: 核心业务流程全部线上运行，审批效率提升一倍。
+    align:
+    - left
+    - top
+- elementId: text-13
+  elementType: text
+  bounds:
+  - 585.22
+  - 382.65
+  - 240.64
+  - 25.22
+  content:
+    fontFamily: MiSans
+    fontSize: 21.33
+    color: $accent
+    bold: true
+    lineHeight: 1.2
+    text: 智能化应用
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-14
+  elementType: text
+  bounds:
+  - 585.22
+  - 415.42
+  - 240.64
+  - 42.3
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: '#000000'
+    lineHeight: 1.4
+    text: 在客服与供应链场景落地 AI 助手，降低人工成本。
+    align:
+    - left
+    - top
+- elementId: text-15
+  elementType: text
+  bounds:
+  - 585.72
+  - 273.56
+  - 240.64
+  - 25.22
+  content:
+    fontFamily: MiSans
+    fontSize: 21.33
+    color: $accent
+    bold: true
+    lineHeight: 1.2
+    text: 数据驱动决策
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-16
+  elementType: text
+  bounds:
+  - 585.72
+  - 306.32
+  - 240.64
+  - 42.3
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: '#000000'
+    lineHeight: 1.4
+    text: 建立统一数据平台，关键经营指标按日更新。
+    align:
+    - left
+    - top
+- elementId: text-17
+  elementType: text
+  bounds:
+  - 50.18
+  - 42.98
+  - 607.13
+  - 60.5
+  content:
+    fontFamily: MiSans
+    fontSize: 50
+    color: '#000000'
+    bold: true
+    lineHeight: 1.2
+    text: 数字化转型三大抓手
+    align:
+    - left
+    - top
+    wrap: false

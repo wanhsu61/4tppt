@@ -1,0 +1,79 @@
+pageType: chapter
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: image-1
+  elementType: image
+  bounds:
+  - 0
+  - 0
+  - 960
+  - 540
+  src: media/image18.jpg
+  fit:
+    mode: fill
+  crop:
+    left: 0
+    right: 0
+    top: 0.05
+    bottom: 0.11
+- elementId: image-2
+  elementType: image
+  bounds:
+  - 0
+  - 1.62
+  - 960
+  - 538.3
+  src: media/image7.gif
+  fit:
+    mode: fill
+  crop:
+    top: 0.14
+    bottom: 0.3
+  opacity: 0.14
+- elementId: text-3
+  elementType: text
+  bounds:
+  - 143.92
+  - 108.7
+  - 672.17
+  - 215.22
+  content:
+    fontFamily: MiSans
+    fontSize: 60
+    color: '#FFFFFF'
+    lineHeight: 1.2
+    text: |
+      方向比速度更重要，
+      坚持比努力更可贵。
+    align:
+    - center
+    - top
+- elementId: text-4
+  elementType: text
+  bounds:
+  - 148.42
+  - 382.75
+  - 672.17
+  - 31.01
+  content:
+    fontFamily: MiSans
+    fontSize: 23.33
+    color: '#FFFFFF'
+    lineHeight: 1.4
+    text: —— 2026 年度战略会寄语
+    align:
+    - center
+    - top
+    wrap: false
+- elementId: image-5
+  elementType: image
+  bounds:
+  - 333
+  - 356.5
+  - 320
+  - 8
+  src: media/image19.gif
+  fit:
+    mode: fill

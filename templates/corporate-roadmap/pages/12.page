@@ -1,0 +1,171 @@
+pageType: content
+background:
+  type: solid
+  color: $primary
+elements:
+- elementId: image-1
+  elementType: image
+  bounds:
+  - 0
+  - 0
+  - 960
+  - 539.23
+  src: media/image7.gif
+  fit:
+    mode: fill
+  crop:
+    bottom: 0.44
+  opacity: 0.26
+- elementId: image-2
+  elementType: image
+  bounds:
+  - 56.71
+  - 284.66
+  - 267.8
+  - 242.88
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    left: 0.38
+    right: 0.11
+    top: 0.54
+  rotation: 90
+- elementId: text-3
+  elementType: text
+  bounds:
+  - 79.39
+  - 204.39
+  - 204.85
+  - 55
+  content:
+    fontFamily: MiSans
+    fontSize: 23.33
+    color: '#000000'
+    lineHeight: 1.2
+    text: |
+      新业务收入占比
+      同比提升 12 点
+    align:
+    - center
+    - top
+- elementId: text-4
+  elementType: text
+  bounds:
+  - 32.01
+  - 92.12
+  - 299.6
+  - 115.95
+  content:
+    fontFamily: MiSans
+    fontSize: 50
+    color: '#FFFFFF'
+    bold: true
+    lineHeight: 1.5
+    text: 40%
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: text-5
+  elementType: text
+  bounds:
+  - 422.01
+  - 92.12
+  - 130.02
+  - 115.95
+  content:
+    fontFamily: MiSans
+    fontSize: 50
+    color: '#FFFFFF'
+    bold: true
+    lineHeight: 1.5
+    text: 95%
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: text-6
+  elementType: text
+  bounds:
+  - 632.39
+  - 92.12
+  - 299.6
+  - 115.95
+  content:
+    fontFamily: MiSans
+    fontSize: 50
+    color: '#FFFFFF'
+    bold: true
+    lineHeight: 1.5
+    text: 1.2 亿
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: image-7
+  elementType: image
+  bounds:
+  - 356.9
+  - 284.66
+  - 267.8
+  - 242.88
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    left: 0.38
+    right: 0.11
+    top: 0.54
+  rotation: 90
+- elementId: image-8
+  elementType: image
+  bounds:
+  - 649.53
+  - 284.66
+  - 267.8
+  - 242.88
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    left: 0.38
+    right: 0.11
+    top: 0.54
+  rotation: 90
+- elementId: text-9
+  elementType: text
+  bounds:
+  - 384.6
+  - 204.39
+  - 204.85
+  - 55
+  content:
+    fontFamily: MiSans
+    fontSize: 23.33
+    color: '#000000'
+    lineHeight: 1.2
+    text: |
+      客户满意度
+      连续三年领先
+    align:
+    - center
+    - top
+- elementId: text-10
+  elementType: text
+  bounds:
+  - 685.29
+  - 204.39
+  - 204.85
+  - 55
+  content:
+    fontFamily: MiSans
+    fontSize: 23.33
+    color: '#000000'
+    lineHeight: 1.2
+    text: |
+      年度营业收入
+      同比增长 35%
+    align:
+    - center
+    - top

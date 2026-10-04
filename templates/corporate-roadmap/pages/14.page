@@ -1,0 +1,373 @@
+pageType: content
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: table-1
+  elementType: table
+  bounds:
+  - 54
+  - 84.5
+  - 852
+  - 224.6
+  columnWidths:
+  - 0.25
+  - 0.26
+  - 0.24
+  - 0.25
+  rowHeights:
+  - 0.34
+  - 0.19
+  - 0.47
+  rows:
+  - - text: S
+      fontSize: 33.33
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $accent
+      border:
+      - style: solid
+        width: 1
+        color: $accent
+      - style: solid
+        width: 1
+        color: $accent
+      - style: solid
+        width: 1
+        color: $accent
+      - style: solid
+        width: 1
+        color: $accent
+    - text: W
+      fontSize: 33.33
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $accent
+      border:
+      - style: solid
+        width: 0.25
+        color: '#A6A6A6'
+      - style: solid
+        width: 0.25
+        color: '#A6A6A6'
+      - style: solid
+        width: 0.25
+        color: '#A6A6A6'
+      - style: solid
+        width: 0.25
+        color: '#A6A6A6'
+    - text: O
+      fontSize: 33.33
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $accent
+      border:
+      - style: solid
+        width: 0.25
+        color: '#A6A6A6'
+      - style: solid
+        width: 0.25
+        color: '#A6A6A6'
+      - style: solid
+        width: 0.25
+        color: '#A6A6A6'
+      - style: solid
+        width: 0.25
+        color: '#A6A6A6'
+    - text: T
+      fontSize: 33.33
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $accent
+      border:
+      - style: solid
+        width: 0.25
+        color: '#A6A6A6'
+      - style: solid
+        width: 0.25
+        color: '#A6A6A6'
+      - style: solid
+        width: 0.25
+        color: '#A6A6A6'
+      - style: solid
+        width: 0.25
+        color: '#A6A6A6'
+  - - text: 优势
+      fontSize: 13.33
+      color: '#FFFFFF'
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - top
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 1
+        color: $primary
+      - style: solid
+        width: 1
+        color: $primary
+      - style: solid
+        width: 1
+        color: $primary
+      - style: solid
+        width: 1
+        color: $primary
+    - text: 劣势
+      fontSize: 13.33
+      color: '#FFFFFF'
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - top
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 1
+        color: $primary
+      - style: solid
+        width: 1
+        color: $primary
+      - style: solid
+        width: 1
+        color: $primary
+      - style: solid
+        width: 1
+        color: $primary
+    - text: 机会
+      fontSize: 13.33
+      color: '#FFFFFF'
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - top
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 0.25
+        color: '#FFFFFF'
+      - style: solid
+        width: 0.25
+        color: '#FFFFFF'
+      - style: solid
+        width: 0.25
+        color: '#FFFFFF'
+      - style: solid
+        width: 0.25
+        color: '#FFFFFF'
+    - text: 威胁
+      fontSize: 13.33
+      color: '#FFFFFF'
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - top
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 0.25
+        color: '#FFFFFF'
+      - style: solid
+        width: 0.25
+        color: '#FFFFFF'
+      - style: solid
+        width: 0.25
+        color: '#FFFFFF'
+      - style: solid
+        width: 0.25
+        color: '#FFFFFF'
+  - - text: |
+        <ul>
+        <li>品牌认知度高，客户基础稳定</li>
+        <li style="line-height:1.4">供应链成熟，交付周期短于同行</li>
+        </ul>
+      fontSize: 10
+      color: '#000000'
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - left
+      - top
+      border:
+      - style: solid
+        width: 0.25
+        color: '#CCCCCC'
+      - style: solid
+        width: 0.25
+        color: '#CCCCCC'
+      - style: solid
+        width: 0.25
+        color: '#CCCCCC'
+      - style: solid
+        width: 0.25
+        color: '#CCCCCC'
+    - text: |
+        <ul>
+        <li>数字化人才储备不足</li>
+        <li style="line-height:1.4">部分区域渠道覆盖薄弱，费用偏高</li>
+        </ul>
+      fontSize: 10
+      color: '#000000'
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - left
+      - top
+      border:
+      - style: solid
+        width: 0.25
+        color: '#CCCCCC'
+      - style: solid
+        width: 0.25
+        color: '#CCCCCC'
+      - style: solid
+        width: 0.25
+        color: '#CCCCCC'
+      - style: solid
+        width: 0.25
+        color: '#CCCCCC'
+    - text: |
+        <ul>
+        <li>行业数字化需求快速增长</li>
+        <li style="line-height:1.4">政策鼓励企业服务创新，新市场持续打开</li>
+        </ul>
+      fontSize: 10
+      color: '#000000'
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - left
+      - top
+      border:
+      - style: solid
+        width: 0.25
+        color: '#CCCCCC'
+      - style: solid
+        width: 0.25
+        color: '#CCCCCC'
+      - style: solid
+        width: 0.25
+        color: '#CCCCCC'
+      - style: solid
+        width: 0.25
+        color: '#CCCCCC'
+    - text: |
+        <ul>
+        <li>头部竞争对手加大价格投入</li>
+        <li style="line-height:1.4">原材料成本波动，宏观环境不确定性增加</li>
+        </ul>
+      fontSize: 10
+      color: '#000000'
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - left
+      - top
+      border:
+      - style: solid
+        width: 0.5
+        color: '#FFFFFF'
+      - style: solid
+        width: 0.5
+        color: '#FFFFFF'
+      - style: solid
+        width: 0.5
+        color: '#FFFFFF'
+      - style: solid
+        width: 0.5
+        color: '#FFFFFF'
+- elementId: shape-2
+  elementType: shape
+  bounds:
+  - 0
+  - 485
+  - 960
+  - 55
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: image-3
+  elementType: image
+  bounds:
+  - 54
+  - 376.03
+  - 852
+  - 165.62
+  src: media/image28.jpg
+  fit:
+    mode: fill
+  crop:
+    right: 0.04
+    top: 0.54
+    bottom: 0.16
+- elementId: image-4
+  elementType: image
+  bounds:
+  - 879.94
+  - 464.03
+  - 43.04
+  - 43.93
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-5
+  elementType: image
+  bounds:
+  - 45.41
+  - 365.77
+  - 20.1
+  - 20.52
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90

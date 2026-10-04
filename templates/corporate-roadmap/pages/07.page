@@ -1,0 +1,133 @@
+pageType: content
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: shape-1
+  elementType: shape
+  bounds:
+  - 0
+  - 0
+  - 589.62
+  - 540
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: image-2
+  elementType: image
+  bounds:
+  - 0
+  - 0
+  - 589.62
+  - 539.62
+  src: media/image7.gif
+  fit:
+    mode: fill
+  crop:
+    bottom: 0.08
+  opacity: 0.36
+- elementId: image-3
+  elementType: image
+  bounds:
+  - 425.79
+  - 106.67
+  - 339.26
+  - 527.18
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.36
+  rotation: 90
+- elementId: image-4
+  elementType: image
+  bounds:
+  - 857.01
+  - 29.78
+  - 57.15
+  - 58.34
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-5
+  elementType: image
+  bounds:
+  - 842.48
+  - 73.3
+  - 27.88
+  - 28.45
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-6
+  elementType: image
+  bounds:
+  - 83.22
+  - 30.37
+  - 324.58
+  - 524.73
+  src: media/image16.png
+  fit:
+    mode: fill
+  crop:
+    left: 0.01
+    right: 0.01
+- elementId: image-7
+  elementType: image
+  bounds:
+  - 518.08
+  - 370.24
+  - 131.57
+  - 207.73
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.71
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: text-8
+  elementType: text
+  bounds:
+  - 415.32
+  - 245.78
+  - 391.66
+  - 72
+  content:
+    fontFamily: MiSans
+    fontSize: 60
+    color: '#FFFFFF'
+    lineHeight: 1.2
+    text: 大家好！
+    align:
+    - center
+    - top
+    wrap: false
+- elementId: text-9
+  elementType: text
+  bounds:
+  - 443.16
+  - 317.78
+  - 337.97
+  - 61.38
+  content:
+    fontFamily: MiSans
+    fontSize: 16.31
+    color: '#FFFFFF'
+    lineHeight: 1.3
+    text: 我是战略规划部的李然，接下来由我介绍公司未来三年的发展规划，欢迎随时交流。
+    align:
+    - left
+    - top

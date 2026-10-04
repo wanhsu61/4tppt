@@ -1,0 +1,364 @@
+pageType: content
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: line-1
+  elementType: line
+  bounds:
+  - 238.48
+  - 296.84
+  - 102.69
+  - 0.01
+  viewBox:
+  - 102.69
+  - 0.01
+  points: 0,0 102.69,0.01
+  border:
+    style: solid
+    width: 2.5
+    color: $primary
+- elementId: image-2
+  elementType: image
+  bounds:
+  - 341.85
+  - 263.57
+  - 66.18
+  - 67.55
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-3
+  elementType: image
+  bounds:
+  - 682.13
+  - 263.57
+  - 66.18
+  - 67.55
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-4
+  elementType: image
+  bounds:
+  - 171.61
+  - 263.57
+  - 66.18
+  - 67.55
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-5
+  elementType: image
+  bounds:
+  - 512.09
+  - 263.57
+  - 66.18
+  - 67.55
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: shape-6
+  elementType: shape
+  bounds:
+  - 0
+  - 42.6
+  - 39.52
+  - 60.88
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: line-7
+  elementType: line
+  bounds:
+  - 408.71
+  - 297.34
+  - 102.69
+  - 0.01
+  viewBox:
+  - 102.69
+  - 0.01
+  points: 0,0 102.69,0.01
+  border:
+    style: solid
+    width: 2.5
+    color: $primary
+- elementId: line-8
+  elementType: line
+  bounds:
+  - 578.95
+  - 296.09
+  - 102.69
+  - 0.01
+  viewBox:
+  - 102.69
+  - 0.01
+  points: 0,0 102.69,0.01
+  border:
+    style: solid
+    width: 2.5
+    color: $primary
+- elementId: image-9
+  elementType: image
+  bounds:
+  - 842.48
+  - 73.3
+  - 27.88
+  - 28.45
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-10
+  elementType: image
+  bounds:
+  - 857.01
+  - 29.78
+  - 57.15
+  - 58.34
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: shape-11
+  elementType: shape
+  bounds:
+  - 0
+  - 485
+  - 960
+  - 55
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: image-12
+  elementType: image
+  bounds:
+  - 678.23
+  - 273.62
+  - 60.23
+  - 44.36
+  src: media/image24.gif
+  fit:
+    mode: fill
+- elementId: image-13
+  elementType: image
+  bounds:
+  - 529.49
+  - 274.64
+  - 31.36
+  - 48.3
+  src: media/image25.gif
+  fit:
+    mode: fill
+- elementId: image-14
+  elementType: image
+  bounds:
+  - 352.42
+  - 272.2
+  - 45.05
+  - 50.74
+  src: media/image26.gif
+  fit:
+    mode: fill
+- elementId: image-15
+  elementType: image
+  bounds:
+  - 180.55
+  - 273.62
+  - 48.3
+  - 48.3
+  src: media/image27.gif
+  fit:
+    mode: fill
+- elementId: text-16
+  elementType: text
+  bounds:
+  - 54
+  - 44.98
+  - 536.89
+  - 60.5
+  content:
+    fontFamily: MiSans
+    fontSize: 50
+    color: '#000000'
+    bold: true
+    lineHeight: 1.2
+    text: 项目推进时间线
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-17
+  elementType: text
+  bounds:
+  - 126.45
+  - 356.43
+  - 240.64
+  - 25.22
+  content:
+    fontFamily: MiSans
+    fontSize: 21.33
+    color: $accent
+    bold: true
+    lineHeight: 1.2
+    text: Q1 立项启动
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-18
+  elementType: text
+  bounds:
+  - 125.92
+  - 389.19
+  - 179.29
+  - 42.3
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: '#000000'
+    lineHeight: 1.4
+    text: |
+      完成方案评审，
+      组建项目团队
+    align:
+    - left
+    - top
+- elementId: text-19
+  elementType: text
+  bounds:
+  - 294.22
+  - 163.65
+  - 240.64
+  - 25.22
+  content:
+    fontFamily: MiSans
+    fontSize: 21.33
+    color: $accent
+    bold: true
+    lineHeight: 1.2
+    text: Q2 试点运行
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-20
+  elementType: text
+  bounds:
+  - 293.69
+  - 196.42
+  - 179.29
+  - 42.3
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: '#000000'
+    lineHeight: 1.4
+    text: |
+      在两个区域开展试点，
+      验证业务模式
+    align:
+    - left
+    - top
+- elementId: text-21
+  elementType: text
+  bounds:
+  - 467.7
+  - 356.43
+  - 240.64
+  - 25.22
+  content:
+    fontFamily: MiSans
+    fontSize: 21.33
+    color: $accent
+    bold: true
+    lineHeight: 1.2
+    text: Q3 全面推广
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-22
+  elementType: text
+  bounds:
+  - 467.17
+  - 389.19
+  - 179.29
+  - 42.3
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: '#000000'
+    lineHeight: 1.4
+    text: |
+      覆盖全部业务线，
+      同步培训一线员工
+    align:
+    - left
+    - top
+- elementId: text-23
+  elementType: text
+  bounds:
+  - 641.03
+  - 163.65
+  - 240.64
+  - 25.22
+  content:
+    fontFamily: MiSans
+    fontSize: 21.33
+    color: $accent
+    bold: true
+    lineHeight: 1.2
+    text: Q4 复盘优化
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-24
+  elementType: text
+  bounds:
+  - 640.5
+  - 196.42
+  - 179.29
+  - 42.3
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: '#000000'
+    lineHeight: 1.4
+    text: |
+      总结经验教训，
+      制定下一年度计划
+    align:
+    - left
+    - top

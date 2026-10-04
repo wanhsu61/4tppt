@@ -1,0 +1,247 @@
+pageType: table_of_contents
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: image-1
+  elementType: image
+  bounds:
+  - 842.48
+  - 73.3
+  - 27.88
+  - 28.45
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-2
+  elementType: image
+  bounds:
+  - 857.01
+  - 29.78
+  - 57.15
+  - 58.34
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: shape-3
+  elementType: shape
+  bounds:
+  - 0
+  - 426.54
+  - 960
+  - 113.46
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: image-4
+  elementType: image
+  bounds:
+  - 74.96
+  - 344.62
+  - 764.79
+  - 195.38
+  src: media/image8.jpg
+  fit:
+    mode: fill
+  crop:
+    left: 0.06
+    top: 0.05
+    bottom: 0.58
+- elementId: shape-5
+  elementType: shape
+  bounds:
+  - 0
+  - 42.6
+  - 39.52
+  - 60.88
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: text-6
+  elementType: text
+  bounds:
+  - 159.34
+  - 175.18
+  - 286.69
+  - 28
+  content:
+    fontFamily: MiSans
+    fontSize: 23.33
+    color: '#000000'
+    lineHeight: 1.2
+    text: 年度目标回顾
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: image-7
+  elementType: image
+  bounds:
+  - 127.49
+  - 178.13
+  - 23.11
+  - 23.09
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    left: 0.45
+    right: 0.08
+    top: 0.06
+    bottom: 0.47
+- elementId: text-8
+  elementType: text
+  bounds:
+  - 159.34
+  - 242
+  - 286.69
+  - 28
+  content:
+    fontFamily: MiSans
+    fontSize: 23.33
+    color: '#000000'
+    lineHeight: 1.2
+    text: 核心战略方向
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: image-9
+  elementType: image
+  bounds:
+  - 127.49
+  - 244.95
+  - 23.11
+  - 23.09
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    left: 0.45
+    right: 0.08
+    top: 0.06
+    bottom: 0.47
+- elementId: text-10
+  elementType: text
+  bounds:
+  - 492.66
+  - 175.18
+  - 286.69
+  - 28
+  content:
+    fontFamily: MiSans
+    fontSize: 23.33
+    color: '#000000'
+    lineHeight: 1.2
+    text: 季度执行计划
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: image-11
+  elementType: image
+  bounds:
+  - 460.8
+  - 178.13
+  - 23.11
+  - 23.09
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    left: 0.45
+    right: 0.08
+    top: 0.06
+    bottom: 0.47
+- elementId: text-12
+  elementType: text
+  bounds:
+  - 492.66
+  - 242
+  - 286.69
+  - 28
+  content:
+    fontFamily: MiSans
+    fontSize: 23.33
+    color: '#000000'
+    lineHeight: 1.2
+    text: 资源与预算安排
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: image-13
+  elementType: image
+  bounds:
+  - 460.8
+  - 244.95
+  - 23.11
+  - 23.09
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    left: 0.45
+    right: 0.08
+    top: 0.06
+    bottom: 0.47
+- elementId: image-14
+  elementType: image
+  bounds:
+  - 61.01
+  - 456.61
+  - 43.04
+  - 43.93
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-15
+  elementType: image
+  bounds:
+  - 821.84
+  - 408.14
+  - 27.88
+  - 28.45
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: text-16
+  elementType: text
+  bounds:
+  - 51.18
+  - 42.98
+  - 565.98
+  - 60.5
+  content:
+    fontFamily: MiSans
+    fontSize: 50
+    color: '#000000'
+    bold: true
+    lineHeight: 1.2
+    text: 会议议程
+    align:
+    - left
+    - top
+    wrap: false

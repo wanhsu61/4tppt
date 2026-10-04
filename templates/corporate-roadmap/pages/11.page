@@ -1,0 +1,416 @@
+pageType: content
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: shape-1
+  elementType: shape
+  bounds:
+  - 0
+  - 0
+  - 388.18
+  - 540
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: image-2
+  elementType: image
+  bounds:
+  - 0
+  - 0
+  - 386.96
+  - 539.62
+  src: media/image7.gif
+  fit:
+    mode: fill
+  crop:
+    right: 0.34
+    bottom: 0.08
+  opacity: 0.55
+- elementId: text-3
+  elementType: text
+  bounds:
+  - 51.18
+  - 42.98
+  - 319.71
+  - 180.5
+  content:
+    fontFamily: MiSans
+    fontSize: 50
+    color: '#000000'
+    bold: true
+    lineHeight: 1.2
+    text: |
+      核心
+      项目团队
+    align:
+    - left
+    - top
+- elementId: text-4
+  elementType: text
+  bounds:
+  - 51.18
+  - 244.17
+  - 253.12
+  - 59.17
+  content:
+    fontFamily: MiSans
+    fontSize: 23.33
+    color: '#FFFFFF'
+    lineHeight: 1.3
+    text: |
+      由四位负责人
+      分别牵头各条线
+    align:
+    - left
+    - top
+- elementId: image-5
+  elementType: image
+  bounds:
+  - 327.69
+  - 191.51
+  - 127.54
+  - 143.4
+  src: media/image20.jpg
+  fit:
+    mode: fill
+  crop:
+    left: 0.4
+    right: 0.32
+    top: 0.26
+    bottom: 0.27
+- elementId: image-6
+  elementType: image
+  bounds:
+  - 648.4
+  - 191.51
+  - 127.54
+  - 143.4
+  src: media/image21.jpg
+  fit:
+    mode: fill
+  crop:
+    left: 0.24
+    right: 0.17
+- elementId: image-7
+  elementType: image
+  bounds:
+  - 325.38
+  - 348.68
+  - 127.54
+  - 143.4
+  src: media/image22.jpg
+  fit:
+    mode: fill
+  crop:
+    left: 0.24
+    right: 0.17
+- elementId: image-8
+  elementType: image
+  bounds:
+  - 648.4
+  - 348.68
+  - 127.54
+  - 143.4
+  src: media/image23.jpg
+  fit:
+    mode: fill
+  crop:
+    left: 0.35
+    right: 0.23
+    top: 0.01
+    bottom: 0.29
+- elementId: text-9
+  elementType: text
+  bounds:
+  - 463.46
+  - 386.92
+  - 127.54
+  - 18.32
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: $accent
+    bold: true
+    letterSpacing: 0.8
+    lineHeight: 1.2
+    text: 林雪
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-10
+  elementType: text
+  bounds:
+  - 463.46
+  - 406.45
+  - 157.5
+  - 18.32
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: '#000000'
+    letterSpacing: 0.8
+    lineHeight: 1.2
+    text: 市场负责人
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: shape-11
+  elementType: shape
+  bounds:
+  - 436.08
+  - 434.39
+  - 144.01
+  - 5.35
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: text-12
+  elementType: text
+  bounds:
+  - 461.32
+  - 230.44
+  - 127.54
+  - 18.32
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: $accent
+    bold: true
+    letterSpacing: 0.8
+    lineHeight: 1.2
+    text: 王静
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-13
+  elementType: text
+  bounds:
+  - 461.32
+  - 249.98
+  - 157.5
+  - 18.32
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: '#000000'
+    letterSpacing: 0.8
+    lineHeight: 1.2
+    text: 战略负责人
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: shape-14
+  elementType: shape
+  bounds:
+  - 433.94
+  - 277.92
+  - 144.01
+  - 5.35
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: shape-15
+  elementType: shape
+  bounds:
+  - 0
+  - 42.6
+  - 39.52
+  - 60.88
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: image-16
+  elementType: image
+  bounds:
+  - 309.62
+  - 469.91
+  - 31.52
+  - 32.18
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-17
+  elementType: image
+  bounds:
+  - 309.62
+  - 178.34
+  - 31.52
+  - 32.18
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-18
+  elementType: image
+  bounds:
+  - 760.19
+  - 469.91
+  - 31.52
+  - 32.18
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-19
+  elementType: image
+  bounds:
+  - 760.19
+  - 178.34
+  - 31.52
+  - 32.18
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: text-20
+  elementType: text
+  bounds:
+  - 789.38
+  - 386.92
+  - 127.54
+  - 18.32
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: $accent
+    bold: true
+    letterSpacing: 0.8
+    lineHeight: 1.2
+    text: 赵磊
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-21
+  elementType: text
+  bounds:
+  - 789.38
+  - 406.45
+  - 157.5
+  - 18.32
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: '#000000'
+    letterSpacing: 0.8
+    lineHeight: 1.2
+    text: 运营负责人
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: shape-22
+  elementType: shape
+  bounds:
+  - 762
+  - 434.39
+  - 144.01
+  - 5.35
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: text-23
+  elementType: text
+  bounds:
+  - 787.24
+  - 230.44
+  - 127.54
+  - 18.32
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: $accent
+    bold: true
+    letterSpacing: 0.8
+    lineHeight: 1.2
+    text: 陈浩
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-24
+  elementType: text
+  bounds:
+  - 787.24
+  - 249.98
+  - 157.5
+  - 18.32
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: '#000000'
+    letterSpacing: 0.8
+    lineHeight: 1.2
+    text: 产品负责人
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: shape-25
+  elementType: shape
+  bounds:
+  - 759.86
+  - 277.92
+  - 144.01
+  - 5.35
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: image-26
+  elementType: image
+  bounds:
+  - 857.01
+  - 29.78
+  - 57.15
+  - 58.34
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-27
+  elementType: image
+  bounds:
+  - 842.48
+  - 73.3
+  - 27.88
+  - 28.45
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90

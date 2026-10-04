@@ -1,0 +1,148 @@
+pageType: content
+background:
+  type: solid
+  color: "$white"
+elements:
+  - elementId: top-label
+    elementType: text
+    bounds: [60, 42, 500, 18]
+    content:
+      style: "$label"
+      text: "05 · INFRASTRUCTURE & TRUST"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 64, 800, 38]
+    content:
+      style: "$pageTitle"
+      text: "三层持久记忆体系与企业级安全沙箱"
+  - elementId: page-subtitle
+    elementType: text
+    bounds: [60, 104, 800, 22]
+    content:
+      fontSize: 13
+      color: "$grayMuted"
+      text: "兼具渐进式自我进化智慧与严格可控的安全边界，守护企业核心数字资产与隐私安全"
+  - elementId: header-rule
+    elementType: line
+    bounds: [60, 134, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: left-col-bg
+    elementType: shape
+    bounds: [60, 150, 405, 305]
+    shapeName: rect
+    fill: {type: solid, color: "$grayLight"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: left-tag
+    elementType: text
+    bounds: [85, 168, 355, 20]
+    content:
+      fontSize: 11
+      color: "$accent"
+      bold: true
+      letterSpacing: 2
+      text: "PERSISTENT MEMORY ARCHITECTURE"
+  - elementId: left-title
+    elementType: text
+    bounds: [85, 192, 355, 26]
+    content:
+      fontSize: 17
+      color: "$primary"
+      bold: true
+      text: "三层持久记忆体系"
+  - elementId: left-sub
+    elementType: text
+    bounds: [85, 218, 355, 18]
+    content:
+      fontSize: 11
+      color: "$grayMuted"
+      text: "建立跨任务认知连接 · 持续进化的默契伙伴"
+  - elementId: left-divider
+    elementType: line
+    bounds: [85, 242, 355, 1]
+    viewBox: [355, 1]
+    points: "0,0.5 355,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: left-content
+    elementType: text
+    bounds: [85, 256, 355, 185]
+    content:
+      fontSize: 12
+      color: "$primary"
+      lineHeight: 1.8
+      text: |
+        <p><span style="color:#9D5A37; font-weight:700;">• L1 会话级工作流记忆</span><br/><span style="color:#525252;">实时追踪多轮任务进度与中间产物状态，保障链路不丢步</span></p>
+        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• L2 个人项目长期偏好</span><br/><span style="color:#525252;">学习并沉淀用户的专属编码习惯、文档排版风格与业务偏好</span></p>
+        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• L3 组织私域知识沉淀</span><br/><span style="color:#525252;">沉淀企业级开发规范、专属业务 SOP 与内部技术术语库</span></p>
+        <p style="margin-top:8px;"><span style="color:#9D5A37; font-weight:700;">• 进化成效</span><br/><span style="color:#525252;">彻底告别机械重复铺垫提示词，越用越默契、越用越懂你</span></p>
+  - elementId: right-col-bg
+    elementType: shape
+    bounds: [495, 150, 405, 305]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: right-tag
+    elementType: text
+    bounds: [520, 168, 355, 20]
+    content:
+      fontSize: 11
+      color: "$primary"
+      bold: true
+      letterSpacing: 2
+      text: "ENTERPRISE SECURITY SANDBOX"
+  - elementId: right-title
+    elementType: text
+    bounds: [520, 192, 355, 26]
+    content:
+      fontSize: 17
+      color: "$primary"
+      bold: true
+      text: "企业级安全受控环境"
+  - elementId: right-sub
+    elementType: text
+    bounds: [520, 218, 355, 18]
+    content:
+      fontSize: 11
+      color: "$grayMuted"
+      text: "沙箱物理隔离 · 高危敏感动作强制人工确认"
+  - elementId: right-divider
+    elementType: line
+    bounds: [520, 242, 355, 1]
+    viewBox: [355, 1]
+    points: "0,0.5 355,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: right-content
+    elementType: text
+    bounds: [520, 256, 355, 185]
+    content:
+      fontSize: 12
+      color: "$primary"
+      lineHeight: 1.8
+      text: |
+        <p><span style="color:#9D5A37; font-weight:700;">• 本地受限安全沙箱</span><br/><span style="color:#525252;">代码与脚本在隔离环境中编译执行，严防越权侵害主机</span></p>
+        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• 高危动作熔断校验</span><br/><span style="color:#525252;">涉及文件删除、外网推送或系统配置变更须人机二次核准</span></p>
+        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• 核心资产隐私隔离</span><br/><span style="color:#525252;">敏感代码与数据严格不出域，充分满足金融与政企合规</span></p>
+        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• 全链路审计追溯日志</span><br/><span style="color:#525252;">每个智能体的思考规划、工具调用与产出全部留痕可查</span></p>
+  - elementId: bottom-rule
+    elementType: line
+    bounds: [60, 480, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: footer-meta
+    elementType: text
+    bounds: [60, 492, 400, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      letterSpacing: 1
+      text: "WORKBUDDY MONOGRAPH · INFRASTRUCTURE & TRUST"
+  - elementId: page-num
+    elementType: text
+    bounds: [840, 492, 60, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      align: [right, middle]
+      text: "06 / 08"

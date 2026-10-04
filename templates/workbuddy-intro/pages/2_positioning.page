@@ -1,0 +1,122 @@
+pageType: content
+background:
+  type: solid
+  color: "$white"
+elements:
+  - elementId: top-label
+    elementType: text
+    bounds: [60, 42, 500, 18]
+    content:
+      style: "$label"
+      text: "01 · STRATEGIC POSITIONING"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 64, 800, 38]
+    content:
+      style: "$pageTitle"
+      text: "从单纯对话建议，到自主闭环交付"
+  - elementId: page-subtitle
+    elementType: text
+    bounds: [60, 104, 800, 22]
+    content:
+      fontSize: 13
+      color: "$grayMuted"
+      text: "告别在割裂工具流中的反复复制粘贴与人肉搬运，让 AI 真正成为可交付业务成果的数字同事"
+  - elementId: header-rule
+    elementType: line
+    bounds: [60, 134, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: col-left-title
+    elementType: text
+    bounds: [60, 155, 380, 24]
+    content:
+      fontSize: 11
+      color: "$grayMuted"
+      bold: true
+      letterSpacing: 2
+      text: "THE FRAGMENTED DIALOGUE ERA"
+  - elementId: col-left-h
+    elementType: text
+    bounds: [60, 180, 380, 28]
+    content:
+      fontSize: 16
+      color: "$primary"
+      bold: true
+      text: "传统 AI 助手：局限于「建议与问答」"
+  - elementId: col-left-body
+    elementType: text
+    bounds: [60, 218, 380, 230]
+    content:
+      fontSize: 12
+      color: "$grayText"
+      lineHeight: 1.8
+      text: |
+        <p><strong>I. 止步于文本输出</strong><br/><span style="color:#737373;">只能给出操作指导与框架代码，真正执行依然需要人工全权完成。</span></p>
+        <p style="margin-top:10px;"><strong>II. 工具流严重割裂</strong><br/><span style="color:#737373;">用户需频繁在聊天窗、IDE、Excel、浏览器与终端之间往返复制粘贴。</span></p>
+        <p style="margin-top:10px;"><strong>III. 无状态的记忆断层</strong><br/><span style="color:#737373;">每次开启新会话都丢失历史上下文，每次都必须重新输入大量约束条件。</span></p>
+        <p style="margin-top:10px;"><strong>IV. 单一模型负荷过载</strong><br/><span style="color:#737373;">单一通用大模型难以同时专精硬核算法、界面设计与复杂业务常识。</span></p>
+  - elementId: col-divider
+    elementType: line
+    bounds: [470, 155, 1, 290]
+    viewBox: [1, 290]
+    points: "0.5,0 0.5,290"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: col-right-bg
+    elementType: shape
+    bounds: [495, 150, 405, 305]
+    shapeName: rect
+    fill: {type: solid, color: "$grayLight"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: col-right-tag
+    elementType: text
+    bounds: [520, 165, 355, 20]
+    content:
+      fontSize: 11
+      color: "$accent"
+      bold: true
+      letterSpacing: 2
+      text: "THE AUTONOMOUS COWORKER STANDARD"
+  - elementId: col-right-h
+    elementType: text
+    bounds: [520, 188, 355, 28]
+    content:
+      fontSize: 16
+      color: "$primary"
+      bold: true
+      text: "WorkBuddy：全链路自主交付新范式"
+  - elementId: col-right-body
+    elementType: text
+    bounds: [520, 222, 355, 225]
+    content:
+      fontSize: 12
+      color: "$primary"
+      lineHeight: 1.8
+      text: |
+        <p><span style="color:#9D5A37; font-weight:700;">I. 端到端自主闭环交付</span><br/><span style="color:#525252;">自动拆解任务、驱动系统级工具、直接生成并交付可复核成果物。</span></p>
+        <p style="margin-top:10px;"><span style="color:#9D5A37; font-weight:700;">II. 深度整合系统与业务生态</span><br/><span style="color:#525252;">无缝感知本地环境，支持企业微信、飞书、钉钉移动端远程遥控。</span></p>
+        <p style="margin-top:10px;"><span style="color:#9D5A37; font-weight:700;">III. 三层持久记忆演进网络</span><br/><span style="color:#525252;">沉淀个人工作风格、项目架构脉络与组织专属 SOP，越用越默契。</span></p>
+        <p style="margin-top:10px;"><span style="color:#9D5A37; font-weight:700;">IV. 100+ 专家 Agent 集群协同</span><br/><span style="color:#525252;">细分领域专家智能体各司其职，如同真实团队般高效并行作战。</span></p>
+  - elementId: bottom-rule
+    elementType: line
+    bounds: [60, 480, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: footer-meta
+    elementType: text
+    bounds: [60, 492, 400, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      letterSpacing: 1
+      text: "WORKBUDDY MONOGRAPH · STRATEGIC POSITIONING"
+  - elementId: page-num
+    elementType: text
+    bounds: [840, 492, 60, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      align: [right, middle]
+      text: "02 / 08"

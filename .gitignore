@@ -1,0 +1,7 @@
+node_modules/
+output/
+__pycache__/
+*.pyc
+media_backup/
+.DS_Store
+Thumbs.db

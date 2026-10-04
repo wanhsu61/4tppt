@@ -1,0 +1,27 @@
+version: v2
+title: 企业战略路线图
+size:
+- 960
+- 540
+theme:
+  colors:
+    primary: '#00C2CB'
+    accent: '#8C52FF'
+    light: '#F4F4F4'
+pages:
+- pages/01.page
+- pages/02.page
+- pages/03.page
+- pages/04.page
+- pages/05.page
+- pages/06.page
+- pages/07.page
+- pages/08.page
+- pages/09.page
+- pages/10.page
+- pages/11.page
+- pages/12.page
+- pages/13.page
+- pages/14.page
+- pages/15.page
+- pages/16.page

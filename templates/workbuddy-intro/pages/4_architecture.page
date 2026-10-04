@@ -1,0 +1,148 @@
+pageType: content
+background:
+  type: solid
+  color: "$white"
+elements:
+  - elementId: top-label
+    elementType: text
+    bounds: [60, 42, 500, 18]
+    content:
+      style: "$label"
+      text: "03 · SYSTEM ARCHITECTURE"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 64, 800, 38]
+    content:
+      style: "$pageTitle"
+      text: "100+ 专家 Agent 协同与异构多模型调度中枢"
+  - elementId: page-subtitle
+    elementType: text
+    bounds: [60, 104, 800, 22]
+    content:
+      fontSize: 13
+      color: "$grayMuted"
+      text: "总控调度大脑统领专家集群，打破单模型绑定，按任务特性毫秒级接入最优 AI 大脑"
+  - elementId: header-rule
+    elementType: line
+    bounds: [60, 134, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: left-col-bg
+    elementType: shape
+    bounds: [60, 150, 405, 305]
+    shapeName: rect
+    fill: {type: solid, color: "$grayLight"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: left-tag
+    elementType: text
+    bounds: [85, 168, 355, 20]
+    content:
+      fontSize: 11
+      color: "$accent"
+      bold: true
+      letterSpacing: 2
+      text: "DISTRIBUTED EXPERT SWARM"
+  - elementId: left-title
+    elementType: text
+    bounds: [85, 192, 355, 26]
+    content:
+      fontSize: 17
+      color: "$primary"
+      bold: true
+      text: "100+ 领域专家 Agent 并行作战"
+  - elementId: left-sub
+    elementType: text
+    bounds: [85, 218, 355, 18]
+    content:
+      fontSize: 11
+      color: "$grayMuted"
+      text: "细分领域专家矩阵 · 分工如同真实专业团队"
+  - elementId: left-divider
+    elementType: line
+    bounds: [85, 242, 355, 1]
+    viewBox: [355, 1]
+    points: "0,0.5 355,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: left-content
+    elementType: text
+    bounds: [85, 256, 355, 185]
+    content:
+      fontSize: 12
+      color: "$primary"
+      lineHeight: 1.8
+      text: |
+        <p><span style="color:#9D5A37; font-weight:700;">• Master 调度总控中枢</span><br/><span style="color:#525252;">精准理解复杂意图，拆解多阶段拓扑并行动线</span></p>
+        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• 研发工程专家矩阵</span><br/><span style="color:#525252;">前端架构、全栈编写、测试用例编写与运行排错</span></p>
+        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• 办公生产专家矩阵</span><br/><span style="color:#525252;">演示文档精美编排、报表深度透视与公文润色</span></p>
+        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• 商业情报专家矩阵</span><br/><span style="color:#525252;">全网舆情监控、跨平台商机挖掘与研判报告沉淀</span></p>
+  - elementId: right-col-bg
+    elementType: shape
+    bounds: [495, 150, 405, 305]
+    shapeName: rect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: right-tag
+    elementType: text
+    bounds: [520, 168, 355, 20]
+    content:
+      fontSize: 11
+      color: "$primary"
+      bold: true
+      letterSpacing: 2
+      text: "DYNAMIC MODEL DISPATCHING"
+  - elementId: right-title
+    elementType: text
+    bounds: [520, 192, 355, 26]
+    content:
+      fontSize: 17
+      color: "$primary"
+      bold: true
+      text: "开放异构大模型调度路由"
+  - elementId: right-sub
+    elementType: text
+    bounds: [520, 218, 355, 18]
+    content:
+      fontSize: 11
+      color: "$grayMuted"
+      text: "按需动态调用最佳模型 · 兼具极致性能与成本控制"
+  - elementId: right-divider
+    elementType: line
+    bounds: [520, 242, 355, 1]
+    viewBox: [355, 1]
+    points: "0,0.5 355,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: right-content
+    elementType: text
+    bounds: [520, 256, 355, 185]
+    content:
+      fontSize: 12
+      color: "$primary"
+      lineHeight: 1.8
+      text: |
+        <p><span style="color:#9D5A37; font-weight:700;">• 腾讯混元大模型 (Hunyuan)</span><br/><span style="color:#525252;">全场景通识认知、超长文本处理与中文合规保障</span></p>
+        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• DeepSeek (V3 / R1)</span><br/><span style="color:#525252;">顶尖复杂数学推演、严密算法逻辑与代码生成</span></p>
+        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• Kimi / GLM 等主流模型</span><br/><span style="color:#525252;">海量资料检索精炼、创意构思与跨语种互译</span></p>
+        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• 自适应智能任务路由</span><br/><span style="color:#525252;">根据推理复杂度毫秒级动态路由，效能最大化</span></p>
+  - elementId: bottom-rule
+    elementType: line
+    bounds: [60, 480, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: footer-meta
+    elementType: text
+    bounds: [60, 492, 400, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      letterSpacing: 1
+      text: "WORKBUDDY MONOGRAPH · SYSTEM ARCHITECTURE"
+  - elementId: page-num
+    elementType: text
+    bounds: [840, 492, 60, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      align: [right, middle]
+      text: "04 / 08"

@@ -1,0 +1,252 @@
+pageType: content
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: table-1
+  elementType: table
+  bounds:
+  - 51.65
+  - 178.91
+  - 854.35
+  - 315.09
+  columnWidths:
+  - 0.33
+  - 0.33
+  - 0.33
+  rowHeights:
+  - 0.5
+  - 0.5
+  rows:
+  - - text: |
+        <p style="text-align:center">降本增效</p>
+        <p style="text-align:center; line-height:1.4"><span style="font-size:14px; font-weight:400">运营成本同比下降 10%</span></p>
+      fontSize: 19.99
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+    - text: |
+        <p style="text-align:center">客户增长</p>
+        <p style="text-align:center; line-height:1.4"><span style="font-size:14px; font-weight:400">新增企业客户 500 家</span></p>
+      fontSize: 19.99
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+    - text: |
+        <p style="text-align:center">产品创新</p>
+        <p style="text-align:center; line-height:1.4"><span style="font-size:14px; font-weight:400">全年发布 3 款新产品</span></p>
+      fontSize: 19.99
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+  - - text: |
+        <p style="text-align:center">人才发展</p>
+        <p style="text-align:center; line-height:1.4"><span style="font-size:14px; font-weight:400">核心骨干留任率达到 95%</span></p>
+      fontSize: 19.99
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+    - text: |
+        <p style="text-align:center">全面数字化</p>
+        <p style="text-align:center; line-height:1.4"><span style="font-size:14px; font-weight:400">核心业务流程 100% 在线</span></p>
+      fontSize: 19.99
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+    - text: |
+        <p style="text-align:center">品牌建设</p>
+        <p style="text-align:center; line-height:1.4"><span style="font-size:14px; font-weight:400">行业影响力进入前三</span></p>
+      fontSize: 19.99
+      color: '#FFFFFF'
+      bold: true
+      fontFamily: MiSans
+      lineHeight: 1.4
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: $primary
+      border:
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+      - style: solid
+        width: 2
+        color: $accent
+- elementId: shape-2
+  elementType: shape
+  bounds:
+  - -14.57
+  - 42.6
+  - 54.09
+  - 60.88
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: text-3
+  elementType: text
+  bounds:
+  - 50.18
+  - 42.98
+  - 607.13
+  - 60.5
+  content:
+    fontFamily: MiSans
+    fontSize: 50
+    color: '#000000'
+    bold: true
+    lineHeight: 1.2
+    text: 2026 年六大重点任务
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: image-4
+  elementType: image
+  bounds:
+  - 857.01
+  - 29.78
+  - 57.15
+  - 58.34
+  src: media/image1.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-5
+  elementType: image
+  bounds:
+  - 856.98
+  - 30.37
+  - 57.78
+  - 57.78
+  src: media/image7.gif
+  fit:
+    mode: fill
+  opacity: 0.27
+- elementId: image-6
+  elementType: image
+  bounds:
+  - 842.48
+  - 73.3
+  - 27.88
+  - 28.45
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90

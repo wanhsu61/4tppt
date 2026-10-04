@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PPT 模板生成器</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='6' width='26' height='18' rx='3' fill='%234f46e5'/%3E%3Crect x='8' y='11' width='10' height='2.5' rx='1' fill='white'/%3E%3Crect x='8' y='16' width='16' height='2' rx='1' fill='%23c7d2fe'/%3E%3Crect x='14' y='24' width='4' height='4' fill='%234f46e5'/%3E%3C/svg%3E" />
+  <!-- 仅用于预览幻灯片中的 Font Awesome 图标；离线时图标不显示，不影响导出 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/" data-nav="gallery">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>PPT 模板生成器</span>
+    </a>
+    <nav class="nav">
+      <a href="#/" data-nav="gallery">模板库</a>
+      <a href="#/history" data-nav="history">生成记录</a>
+    </nav>
+  </header>
+
+  <!-- 模板库 -->
+  <main id="view-gallery" class="view">
+    <section class="hero">
+      <h1>选一个模板，填上你的内容，一键生成 PPTX</h1>
+      <p>模板来自 PPTD 项目。所有文字、图片和主题色都可以修改，页面可以增删、复制、调整顺序，生成的文件可以直接用 PowerPoint / WPS 打开继续编辑。</p>
+    </section>
+    <div class="filters" id="category-filters"></div>
+    <div class="grid" id="template-grid">
+      <div class="empty">正在加载模板…</div>
+    </div>
+  </main>
+
+  <!-- 编辑器 -->
+  <main id="view-editor" class="view editor" hidden>
+    <div class="editor-bar">
+      <button class="btn ghost" id="btn-back" title="返回模板库">← 模板库</button>
+      <div class="editor-title">
+        <span class="muted small" id="editor-template-name"></span>
+        <input id="deck-title" class="title-input" placeholder="输入 PPT 标题（也是文件名）" maxlength="60" />
+      </div>
+      <div class="editor-actions">
+        <span class="muted small" id="save-state"></span>
+        <button class="btn ghost" id="btn-reset" title="放弃所有修改，恢复模板原样">重置</button>
+        <button class="btn primary" id="btn-generate">生成 PPTX</button>
+      </div>
+    </div>
+    <div class="editor-body">
+      <aside class="pages-panel">
+        <div class="panel-head">
+          <span>页面 <b id="page-count"></b></span>
+        </div>
+        <ol class="page-list" id="page-list"></ol>
+      </aside>
+
+      <section class="stage-panel">
+        <div class="stage" id="stage"></div>
+        <div class="stage-foot">
+          <button class="btn ghost small" id="btn-prev">‹ 上一页</button>
+          <span class="muted small" id="stage-info"></span>
+          <button class="btn ghost small" id="btn-next">下一页 ›</button>
+        </div>
+        <p class="hint">提示：点击预览中的文字或图片，可直接定位到右侧对应的输入框。预览为网页近似渲染，最终效果以导出的 PPTX 为准。</p>
+      </section>
+
+      <aside class="form-panel">
+        <div class="tabs" role="tablist">
+          <button class="tab active" data-tab="content" role="tab">本页内容</button>
+          <button class="tab" data-tab="settings" role="tab">整体设置</button>
+        </div>
+        <div class="tab-body" id="tab-content"></div>
+        <div class="tab-body" id="tab-settings" hidden></div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- 生成记录 -->
+  <main id="view-history" class="view" hidden>
+    <section class="hero small">
+      <h1>生成记录</h1>
+      <p>保存在项目的 <code>output/</code> 目录下，每次生成都包含可继续编辑的 PPTD 项目和 PPTX 文件。</p>
+    </section>
+    <div class="history" id="history-list"></div>
+  </main>
+
+  <!-- 模板预览弹窗 -->
+  <dialog id="preview-dialog" class="dialog wide">
+    <div class="dialog-head">
+      <div>
+        <h2 id="preview-title"></h2>
+        <p class="muted small" id="preview-desc"></p>
+      </div>
+      <div class="row">
+        <button class="btn primary" id="preview-use">使用此模板</button>
+        <button class="btn ghost" data-close>关闭</button>
+      </div>
+    </div>
+    <div class="preview-grid" id="preview-grid"></div>
+  </dialog>
+
+  <!-- 生成结果弹窗 -->
+  <dialog id="result-dialog" class="dialog">
+    <div id="result-body"></div>
+  </dialog>
+
+  <div class="overlay" id="busy" hidden>
+    <div class="busy-card">
+      <div class="spinner"></div>
+      <div>正在生成 PPTX…</div>
+    </div>
+  </div>
+  <div class="toast" id="toast" hidden></div>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

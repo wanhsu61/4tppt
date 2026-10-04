@@ -1,0 +1,124 @@
+pageType: cover
+background:
+  type: solid
+  color: "$white"
+elements:
+  - elementId: top-meta
+    elementType: text
+    bounds: [60, 42, 500, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      bold: true
+      letterSpacing: 3
+      text: "VOL. 2026 · AI AGENT MONOGRAPH"
+  - elementId: top-rule
+    elementType: line
+    bounds: [60, 68, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: cover-tag
+    elementType: text
+    bounds: [60, 105, 600, 20]
+    content:
+      fontSize: 11
+      color: "$accent"
+      bold: true
+      letterSpacing: 2
+      text: "TENCENT CLOUD · DIGITAL COWORKER ARCHITECTURE"
+  - elementId: cover-title
+    elementType: text
+    bounds: [60, 132, 800, 75]
+    content:
+      style: "$coverTitle"
+      align: [left, middle]
+      text: "WorkBuddy"
+  - elementId: cover-subtitle
+    elementType: text
+    bounds: [60, 208, 800, 36]
+    content:
+      fontSize: 22
+      color: "$primary"
+      bold: true
+      letterSpacing: 1
+      text: "全场景 AI Agent 协同办公平台 · 数字同事"
+  - elementId: accent-bar
+    elementType: shape
+    bounds: [60, 258, 48, 2]
+    shapeName: rect
+    fill: {type: solid, color: "$accent"}
+  - elementId: cover-lead
+    elementType: text
+    bounds: [60, 275, 760, 52]
+    content:
+      fontSize: 14
+      color: "$grayText"
+      lineHeight: 1.7
+      text: |
+        从单点「对话咨询」迈向端到端「自主闭环交付」
+        聚合 100+ 专家 Agent 协同作战与开放多模型中枢，重塑人机协同新范式
+  - elementId: divider-mid
+    elementType: line
+    bounds: [60, 345, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: col-1
+    elementType: text
+    bounds: [60, 365, 195, 80]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:11px; color:#9D5A37; font-weight:700; letter-spacing:1px;">01 · SWARM COWORK</span></p>
+        <p style="margin-top:6px;"><span style="font-size:15px; font-weight:700; color:#1A1A1A;">100+ 专家 Agent</span></p>
+        <p style="margin-top:4px;"><span style="font-size:11px; color:#737373;">细分领域并行协同</span></p>
+  - elementId: col-2
+    elementType: text
+    bounds: [275, 365, 195, 80]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:11px; color:#9D5A37; font-weight:700; letter-spacing:1px;">02 · WORKFLOWS</span></p>
+        <p style="margin-top:6px;"><span style="font-size:15px; font-weight:700; color:#1A1A1A;">三大自适应工作流</span></p>
+        <p style="margin-top:4px;"><span style="font-size:11px; color:#737373;">Craft · Plan · Ask</span></p>
+  - elementId: col-3
+    elementType: text
+    bounds: [490, 365, 195, 80]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:11px; color:#9D5A37; font-weight:700; letter-spacing:1px;">03 · MODEL HUB</span></p>
+        <p style="margin-top:6px;"><span style="font-size:15px; font-weight:700; color:#1A1A1A;">开放多模型调度</span></p>
+        <p style="margin-top:4px;"><span style="font-size:11px; color:#737373;">混元 / DeepSeek 动态路由</span></p>
+  - elementId: col-4
+    elementType: text
+    bounds: [705, 365, 195, 80]
+    content:
+      align: [left, top]
+      text: |
+        <p><span style="font-size:11px; color:#9D5A37; font-weight:700; letter-spacing:1px;">04 · INFRASTRUCTURE</span></p>
+        <p style="margin-top:6px;"><span style="font-size:15px; font-weight:700; color:#1A1A1A;">三层记忆与安全</span></p>
+        <p style="margin-top:4px;"><span style="font-size:11px; color:#737373;">沉淀偏好 · 本地沙箱隔离</span></p>
+  - elementId: bottom-rule
+    elementType: line
+    bounds: [60, 480, 840, 1]
+    viewBox: [840, 1]
+    points: "0,0.5 840,0.5"
+    border: {style: solid, width: 1, color: "$grayBorder"}
+  - elementId: footer-meta
+    elementType: text
+    bounds: [60, 492, 400, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      letterSpacing: 1
+      text: "WORKBUDDY MONOGRAPH · 2026 EDITION"
+  - elementId: page-num
+    elementType: text
+    bounds: [840, 492, 60, 18]
+    content:
+      fontSize: 10
+      color: "$grayMuted"
+      align: [right, middle]
+      text: "01 / 08"

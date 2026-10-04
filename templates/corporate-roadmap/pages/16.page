@@ -1,0 +1,648 @@
+pageType: final
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: shape-1
+  elementType: shape
+  bounds:
+  - -3.18
+  - 0
+  - 964.94
+  - 159.38
+  shapeName: rect
+  fill:
+    type: solid
+    color: $accent
+- elementId: text-2
+  elementType: text
+  bounds:
+  - 54
+  - 64.5
+  - 852
+  - 60.5
+  content:
+    fontFamily: MiSans
+    fontSize: 50
+    color: '#FFFFFF'
+    bold: true
+    lineHeight: 1.2
+    text: 组织架构
+    align:
+    - center
+    - top
+    wrap: false
+- elementId: image-3
+  elementType: image
+  bounds:
+  - 101.38
+  - 376.74
+  - 37.1
+  - 47.78
+  src: media/image22.jpg
+  fit:
+    mode: fill
+  crop:
+    left: 0.28
+    right: 0.2
+- elementId: image-4
+  elementType: image
+  bounds:
+  - 302.1
+  - 376.74
+  - 37.1
+  - 47.78
+  src: media/image21.jpg
+  fit:
+    mode: fill
+  crop:
+    left: 0.24
+    right: 0.24
+- elementId: image-5
+  elementType: image
+  bounds:
+  - 489.36
+  - 376.74
+  - 37.1
+  - 47.78
+  src: media/image31.jpg
+  fit:
+    mode: fill
+  crop:
+    left: 0.24
+    right: 0.24
+- elementId: image-6
+  elementType: image
+  bounds:
+  - 177.02
+  - 293.08
+  - 37.1
+  - 47.78
+  src: media/image32.jpg
+  fit:
+    mode: fill
+  crop:
+    top: 0.07
+    bottom: 0.07
+- elementId: image-7
+  elementType: image
+  bounds:
+  - 380.45
+  - 209.77
+  - 37.1
+  - 47.78
+  src: media/image20.jpg
+  fit:
+    mode: fill
+  crop:
+    left: 0.36
+    right: 0.28
+    top: 0.21
+    bottom: 0.08
+- elementId: image-8
+  elementType: image
+  bounds:
+  - 564.34
+  - 293.08
+  - 37.1
+  - 47.78
+  src: media/image23.jpg
+  fit:
+    mode: fill
+  crop:
+    left: 0.38
+    right: 0.28
+    top: 0.01
+    bottom: 0.33
+- elementId: shape-9
+  elementType: shape
+  bounds:
+  - 417.55
+  - 209.77
+  - 130.51
+  - 47.78
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: text-10
+  elementType: text
+  bounds:
+  - 430.88
+  - 217.77
+  - 103.85
+  - 26.44
+  content:
+    fontFamily: MiSans
+    fontSize: 9.33
+    color: '#FFFFFF'
+    letterSpacing: 0.47
+    lineHeight: 1.3
+    text: |
+      <p>张伟</p>
+      <p style="line-height:1.3"><span style="font-weight:700">总经理</span></p>
+    align:
+    - left
+    - middle
+- elementId: shape-11
+  elementType: shape
+  bounds:
+  - 214.12
+  - 293.08
+  - 130.51
+  - 47.96
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: text-12
+  elementType: text
+  bounds:
+  - 227.46
+  - 301.09
+  - 103.85
+  - 26.62
+  content:
+    fontFamily: MiSans
+    fontSize: 9.33
+    color: '#FFFFFF'
+    letterSpacing: 0.47
+    lineHeight: 1.3
+    text: |
+      <p>王静</p>
+      <p style="line-height:1.3"><span style="font-weight:700">战略副总裁</span></p>
+    align:
+    - left
+    - middle
+- elementId: shape-13
+  elementType: shape
+  bounds:
+  - 601.44
+  - 293.26
+  - 130.51
+  - 47.78
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: text-14
+  elementType: text
+  bounds:
+  - 614.77
+  - 301.26
+  - 103.85
+  - 26.44
+  content:
+    fontFamily: MiSans
+    fontSize: 9.33
+    color: '#FFFFFF'
+    bold: true
+    letterSpacing: 0.47
+    lineHeight: 1.3
+    text: |
+      陈浩
+      产品副总裁
+    align:
+    - left
+    - middle
+- elementId: shape-15
+  elementType: shape
+  bounds:
+  - 138.48
+  - 376.74
+  - 130.51
+  - 47.78
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: text-16
+  elementType: text
+  bounds:
+  - 151.81
+  - 384.74
+  - 103.85
+  - 26.44
+  content:
+    fontFamily: MiSans
+    fontSize: 9.33
+    color: '#FFFFFF'
+    letterSpacing: 0.47
+    lineHeight: 1.3
+    text: |
+      <p>林雪</p>
+      <p style="line-height:1.3"><span style="font-weight:700">市场总监</span></p>
+    align:
+    - left
+    - middle
+- elementId: shape-17
+  elementType: shape
+  bounds:
+  - 526.46
+  - 376.74
+  - 130.51
+  - 47.78
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: text-18
+  elementType: text
+  bounds:
+  - 539.79
+  - 384.74
+  - 103.85
+  - 26.44
+  content:
+    fontFamily: MiSans
+    fontSize: 9.33
+    color: '#FFFFFF'
+    letterSpacing: 0.47
+    lineHeight: 1.3
+    text: |
+      <p>周敏</p>
+      <p style="line-height:1.3"><span style="font-weight:700">研发总监</span></p>
+    align:
+    - left
+    - middle
+- elementId: line-19
+  elementType: line
+  bounds:
+  - 278.51
+  - 273.73
+  - 388.68
+  - 0.01
+  viewBox:
+  - 388.68
+  - 0.01
+  points: 0,0 388.68,0.01
+  border:
+    style: solid
+    width: 1
+    color: $primary
+  rotation: -180
+- elementId: line-20
+  elementType: line
+  bounds:
+  - 475.13
+  - 265.14
+  - 16.19
+  - 1
+  viewBox:
+  - 16.19
+  - 1
+  points: 0,0 16.19,1
+  border:
+    style: solid
+    width: 1
+    color: $primary
+  rotation: -90.75
+- elementId: line-21
+  elementType: line
+  bounds:
+  - 657.43
+  - 283.49
+  - 18.52
+  - 1
+  viewBox:
+  - 18.52
+  - 1
+  points: 0,0 18.52,1
+  border:
+    style: solid
+    width: 1
+    color: $primary
+  rotation: -90
+- elementId: line-22
+  elementType: line
+  bounds:
+  - 270.01
+  - 283.4
+  - 18.37
+  - 1
+  viewBox:
+  - 18.37
+  - 1
+  points: 0,0 18.37,1
+  border:
+    style: solid
+    width: 1
+    color: $primary
+  rotation: -91.15
+- elementId: line-23
+  elementType: line
+  bounds:
+  - 215.12
+  - 360.36
+  - 143.8
+  - 0.01
+  viewBox:
+  - 143.8
+  - 0.01
+  points: 0,0 143.8,0.01
+  border:
+    style: solid
+    width: 1
+    color: $primary
+  rotation: -180
+- elementId: line-24
+  elementType: line
+  bounds:
+  - 269.22
+  - 350.7
+  - 20.32
+  - 1
+  viewBox:
+  - 20.32
+  - 1
+  points: 0,0 20.32,1
+  border:
+    style: solid
+    width: 1
+    color: $primary
+  rotation: -90
+- elementId: line-25
+  elementType: line
+  bounds:
+  - 206.93
+  - 368.05
+  - 16.38
+  - 0.01
+  viewBox:
+  - 16.38
+  - 0.01
+  points: 0,0 16.38,0.01
+  border:
+    style: solid
+    width: 1
+    color: $primary
+  rotation: -90
+- elementId: line-26
+  elementType: line
+  bounds:
+  - 602.44
+  - 360.18
+  - 143.8
+  - 0.01
+  viewBox:
+  - 143.8
+  - 0.01
+  points: 0,0 143.8,0.01
+  border:
+    style: solid
+    width: 1
+    color: $primary
+  rotation: -180
+- elementId: line-27
+  elementType: line
+  bounds:
+  - 656.62
+  - 350.61
+  - 20.14
+  - 1
+  viewBox:
+  - 20.14
+  - 1
+  points: 0,0 20.14,1
+  border:
+    style: solid
+    width: 1
+    color: $primary
+  rotation: -90
+- elementId: line-28
+  elementType: line
+  bounds:
+  - 593.75
+  - 367.87
+  - 16.38
+  - 0.01
+  viewBox:
+  - 16.38
+  - 0.01
+  points: 0,0 16.38,0.01
+  border:
+    style: solid
+    width: 1
+    color: $primary
+  rotation: -90
+- elementId: shape-29
+  elementType: shape
+  bounds:
+  - -3.18
+  - 150.08
+  - 964.94
+  - 11.69
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: image-30
+  elementType: image
+  bounds:
+  - 371.64
+  - 198.74
+  - 21.61
+  - 22.05
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: line-31
+  elementType: line
+  bounds:
+  - 736.97
+  - 368.94
+  - 18.52
+  - 0.01
+  viewBox:
+  - 18.52
+  - 0.01
+  points: 0,0 18.52,0.01
+  border:
+    style: solid
+    width: 1
+    color: $primary
+  rotation: -90
+- elementId: image-32
+  elementType: image
+  bounds:
+  - 691.7
+  - 376.74
+  - 37.1
+  - 47.78
+  src: media/image33.jpg
+  fit:
+    mode: fill
+  crop:
+    top: 0.07
+    bottom: 0.07
+- elementId: shape-33
+  elementType: shape
+  bounds:
+  - 728.8
+  - 376.74
+  - 130.51
+  - 47.78
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: text-34
+  elementType: text
+  bounds:
+  - 742.13
+  - 384.74
+  - 103.85
+  - 26.44
+  content:
+    fontFamily: MiSans
+    fontSize: 9.33
+    color: '#FFFFFF'
+    letterSpacing: 0.47
+    lineHeight: 1.3
+    text: |
+      <p>孙杰</p>
+      <p style="line-height:1.3"><span style="font-weight:700">技术总监</span></p>
+    align:
+    - left
+    - middle
+- elementId: line-35
+  elementType: line
+  bounds:
+  - 349.16
+  - 369.62
+  - 18.52
+  - 0.01
+  viewBox:
+  - 18.52
+  - 0.01
+  points: 0,0 18.52,0.01
+  border:
+    style: solid
+    width: 1
+    color: $primary
+  rotation: -90
+- elementId: shape-36
+  elementType: shape
+  bounds:
+  - 339.2
+  - 376.74
+  - 130.51
+  - 47.78
+  shapeName: rect
+  fill:
+    type: solid
+    color: $primary
+- elementId: text-37
+  elementType: text
+  bounds:
+  - 352.53
+  - 384.74
+  - 103.85
+  - 26.44
+  content:
+    fontFamily: MiSans
+    fontSize: 9.33
+    color: '#FFFFFF'
+    letterSpacing: 0.47
+    lineHeight: 1.3
+    text: |
+      <p>赵磊</p>
+      <p style="line-height:1.3"><span style="font-weight:700">运营总监</span></p>
+    align:
+    - left
+    - middle
+- elementId: image-38
+  elementType: image
+  bounds:
+  - 555.26
+  - 282.05
+  - 21.61
+  - 22.05
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-39
+  elementType: image
+  bounds:
+  - 167.79
+  - 282.05
+  - 21.61
+  - 22.05
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-40
+  elementType: image
+  bounds:
+  - 92.15
+  - 365.54
+  - 21.61
+  - 22.05
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-41
+  elementType: image
+  bounds:
+  - 292.87
+  - 365.54
+  - 21.61
+  - 22.05
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-42
+  elementType: image
+  bounds:
+  - 481.03
+  - 365.54
+  - 21.61
+  - 22.05
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
+- elementId: image-43
+  elementType: image
+  bounds:
+  - 684.7
+  - 365.54
+  - 21.61
+  - 22.05
+  src: media/image5.png
+  fit:
+    mode: fill
+  crop:
+    right: 0.55
+    bottom: 0.54
+  opacity: 0.72
+  rotation: 90
