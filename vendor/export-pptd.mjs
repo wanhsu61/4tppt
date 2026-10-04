@@ -69,8 +69,8 @@ function parseArgs(argv) {
   const args = {
     input: null,
     output: null,
-    cookie: process.env.PPT_COOKIE || process.env.KIMI_COOKIE || '',
-    origin: process.env.PPT_ORIGIN || process.env.KIMI_ORIGIN || 'https://www.kimi.com',
+    cookie: process.env.PPT_COOKIE || '',
+    origin: process.env.PPT_ORIGIN || '',
     noSign: false,
     embedFonts: false,
     transition: 'fade',
@@ -585,7 +585,7 @@ async function main() {
 Options:
   -o, --output PATH     output .pptx
   --cookie STRING       Session cookie for signature API
-  --origin URL          default https://www.kimi.com
+  --origin URL          custom signature endpoint origin
   --no-sign             skip signature request (WASM may reject)
   --transition fade|none
   --wasm PATH           path to patched pptd_wasm (default: resolve from editor mirror)
