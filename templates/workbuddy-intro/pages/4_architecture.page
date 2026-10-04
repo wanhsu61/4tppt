@@ -122,7 +122,7 @@ elements:
       text: |
         <p><span style="color:#9D5A37; font-weight:700;">• 腾讯混元大模型 (Hunyuan)</span><br/><span style="color:#525252;">全场景通识认知、超长文本处理与中文合规保障</span></p>
         <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• DeepSeek (V3 / R1)</span><br/><span style="color:#525252;">顶尖复杂数学推演、严密算法逻辑与代码生成</span></p>
-        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• Kimi / GLM 等主流模型</span><br/><span style="color:#525252;">海量资料检索精炼、创意构思与跨语种互译</span></p>
+        <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• 4T / GLM 等主流模型</span><br/><span style="color:#525252;">海量资料检索精炼、创意构思与跨语种互译</span></p>
         <p style="margin-top:8px;"><span style="color:#1A1A1A; font-weight:700;">• 自适应智能任务路由</span><br/><span style="color:#525252;">根据推理复杂度毫秒级动态路由，效能最大化</span></p>
   - elementId: bottom-rule
     elementType: line

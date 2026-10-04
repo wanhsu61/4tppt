@@ -1,25 +1,17 @@
 #!/usr/bin/env node
 /**
- * Offline PPTD → PPTX exporter using Kimi's public pptd-wasm (no webpage UI).
+ * Offline PPTD → PPTX exporter using public pptd-wasm (no webpage UI).
  *
  * What this does:
  *   1. Load a PPTD project from disk (manifest + pages + media)
  *   2. Resolve images to bytes
- *   3. Optionally request an export signature from Kimi API (or use --no-sign)
+ *   3. Optionally request an export signature from API (or use --no-sign)
  *   4. Call the official WASM writer: exportPPTDToPPTXBytes(pptd, options, signature)
  *   5. Write .pptx
  *
- * Image ZIP export (pixel screenshots) still needs a DOM renderer; use --images
- * with Playwright against a local static render, or keep using official editor for QA shots.
- *
  * Usage:
  *   node export-pptd.mjs <projectDirOr.pptd> -o out.pptx
- *   node export-pptd.mjs ./xiaomi-yu7 -o yu7.pptx --cookie "session=..."
- *   node export-pptd.mjs ./xiaomi-yu7 -o yu7.pptx --no-sign   # may fail inside WASM if signature is verified
- *
- * Env:
- *   KIMI_COOKIE   auth cookie string for /apiv2/utils/v1/signatures
- *   KIMI_ORIGIN   default https://www.kimi.com
+ *   node export-pptd.mjs ./xiaomi-yu7 -o yu7.pptx --no-sign
  */
 
 import fs from 'node:fs';
@@ -77,8 +69,8 @@ function parseArgs(argv) {
   const args = {
     input: null,
     output: null,
-    cookie: process.env.KIMI_COOKIE || '',
-    origin: process.env.KIMI_ORIGIN || 'https://www.kimi.com',
+    cookie: process.env.PPT_COOKIE || process.env.KIMI_COOKIE || '',
+    origin: process.env.PPT_ORIGIN || process.env.KIMI_ORIGIN || 'https://www.kimi.com',
     noSign: false,
     embedFonts: false,
     transition: 'fade',
@@ -310,7 +302,7 @@ async function requestSignature(dataString, { origin, cookie }) {
     const body = await res.text().catch(() => '');
     throw new Error(
       `Signature HTTP ${res.status}: ${body.slice(0, 300)}\n` +
-        `Pass a valid logged-in Cookie via --cookie or KIMI_COOKIE.`,
+        `Pass a valid logged-in Cookie via --cookie or PPT_COOKIE.`,
     );
   }
   const json = await res.json();
@@ -320,7 +312,7 @@ async function requestSignature(dataString, { origin, cookie }) {
   return json.signature;
 }
 
-// ---------- WASM glue (Node port of kimiDesign / wasm-bindgen) ----------
+// ---------- WASM glue (Node port of pptdDesign / wasm-bindgen) ----------
 async function loadWasmExporter(wasmPath) {
   const wasmBytes = fs.readFileSync(wasmPath);
   let exportsRef;
@@ -592,14 +584,14 @@ async function main() {
 
 Options:
   -o, --output PATH     output .pptx
-  --cookie STRING       Kimi session cookie for signature API
+  --cookie STRING       Session cookie for signature API
   --origin URL          default https://www.kimi.com
   --no-sign             skip signature request (WASM may reject)
   --transition fade|none
   --wasm PATH           path to patched pptd_wasm (default: resolve from editor mirror)
   --embed-fonts         reserved (font embedding needs font blobs)
 
-Env: KIMI_COOKIE, KIMI_ORIGIN`);
+Env: PPT_COOKIE, PPT_ORIGIN`);
     process.exit(args.help ? 0 : 1);
   }
 
@@ -664,7 +656,7 @@ Env: KIMI_COOKIE, KIMI_ORIGIN`);
     if (msg.includes('pptd export signature') || msg.toLowerCase().includes('signature')) {
       throw new Error(
         `WASM signature check failed: ${msg}\n` +
-          `Provide a valid Kimi login cookie: --cookie "..." or KIMI_COOKIE=...`,
+          `Provide a valid login cookie: --cookie "..." or PPT_COOKIE=...`,
       );
     }
     throw e;

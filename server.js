@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Kimi PPT 模板生成器 —— 本地 Node 服务
+ * 4T PPT 模板生成器 —— 本地 Node 服务
  *
  * - 扫描 templates/ 目录（以及环境变量 TEMPLATE_DIRS 指定的目录）中的 PPTD 项目作为模板
  * - 提供模板列表 / 详情 / 媒体文件给前端渲染预览
@@ -509,7 +509,7 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, HOST, async () => {
   const n = (await scanTemplates()).length;
   console.log('');
-  console.log('  Kimi PPT 模板生成器已启动');
+  console.log('  4T PPT 模板生成器已启动');
   console.log(`  ➜  打开 http://${HOST === '0.0.0.0' ? '127.0.0.1' : HOST}:${PORT}/`);
   console.log(`  ➜  模板目录: ${TEMPLATE_DIRS.join(' ; ')}（共 ${n} 个模板）`);
   console.log(`  ➜  输出目录: ${OUTPUT_DIR}`);

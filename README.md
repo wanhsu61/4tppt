@@ -1,6 +1,8 @@
-# PPT 模板生成器
+# 4T PPT 模板生成器
 
-基于 [open-kimi-ppt-skill](https://github.com/binaryify/open-kimi-ppt-skill) 的 PPTD 格式与本地 WASM 导出器做的网页工具：
+在线体验 Demo：[https://wanhsu61.github.io/4tppt/](https://wanhsu61.github.io/4tppt/)
+
+基于 PPTD 格式与本地 WASM 导出器做的网页工具：
 
 1. **模板库**：浏览所有模板，网页内实时渲染封面和每一页预览；
 2. **填写内容**：选中模板后，逐页修改文字（保留原有字号、颜色、加粗等样式）、替换图片、编辑表格、调整主题配色；页面可以复制 / 删除 / 调整顺序；
@@ -30,7 +32,7 @@ npm start          # 打开 http://127.0.0.1:5180/
 ## 目录结构
 
 ```text
-kimippt/
+4tppt/
   server.js            # Node 服务：模板扫描、媒体文件、生成与导出 API
   public/              # 前端（原生 JS，无需构建）
     index.html
@@ -38,7 +40,7 @@ kimippt/
     render.js          # PPTD → HTML 预览渲染器
     style.css
   templates/           # 模板（每个子目录是一个 PPTD 项目）
-  vendor/              # open-kimi-ppt-skill 的导出脚本与 WASM（MIT）
+  vendor/              # PPTD 导出脚本与 WASM（MIT）
   output/              # 每次生成：<时间>-<标题>/deck.pptd + pages/ + media/ + <标题>.pptx
 ```
 
@@ -56,7 +58,7 @@ kimippt/
 }
 ```
 
-用 open-kimi-ppt skill 让 AI 生成的 PPTD 项目、或者 `example/` 里的项目，都可以直接作为模板。
+AI 生成的 PPTD 项目、或者模板库里的项目，都可以直接作为模板。
 
 可选字段 `decorations`：装饰性图片（渐变色块、动效背景等）的路径列表，这些图片不会出现在网页的「本页内容」表单里，避免干扰。
 
@@ -93,5 +95,5 @@ python tools/pptx2pptd.py 输入.pptx templates/新模板id --slides 1-16 --titl
 
 - 网页预览是近似渲染，最终效果以导出的 PPTX 为准（饼图 / 柱状图 / 折线图 / 面积图可预览，其他图表显示为占位框）。
 - 生成前会做兼容性修正：富文本里 `color:$主题色` 引用会替换为实际色值、表格单元格的 `content` 写法会展开为标准字段，避免导出后颜色变黑或表格文字丢失。
-- 每次生成的目录里同时保留可编辑的 PPTD 项目，可用 `npx open-kimi-ppt-skill serve` 打开继续精修。
+- 每次生成的目录里同时保留可编辑的 PPTD 项目，可直接打开继续精修。
 - 编辑内容会自动保存为浏览器草稿；点「重置」恢复模板原样。

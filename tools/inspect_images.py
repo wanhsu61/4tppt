@@ -3,7 +3,8 @@ import glob
 import yaml
 from PIL import Image
 
-TEMPLATE_DIR = 'D:/kimippt/templates/corporate-roadmap'
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEMPLATE_DIR = os.path.join(ROOT, 'templates', 'corporate-roadmap')
 
 print("=== IMAGE DETAILS IN MEDIA ===")
 for img_path in sorted(glob.glob(f'{TEMPLATE_DIR}/media/*')):

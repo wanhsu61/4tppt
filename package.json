@@ -1,8 +1,8 @@
 {
-  "name": "kimippt-generator",
+  "name": "4tppt-generator",
   "version": "1.0.0",
   "private": true,
-  "description": "基于 open-kimi-ppt-skill 的 PPT 模板生成网页：浏览模板、填写内容、一键导出 PPTX",
+  "description": "基于 PPTD 格式的 4T PPT 模板生成网页：浏览模板、填写内容、一键导出 PPTX",
   "type": "module",
   "main": "server.js",
   "scripts": {
