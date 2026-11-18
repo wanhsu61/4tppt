@@ -1,0 +1,235 @@
+pageType: table_of_contents
+background:
+  type: solid
+  color: $c1
+elements:
+- elementId: text-1
+  elementType: text
+  bounds:
+  - 23.59
+  - 516.79
+  - 320.96
+  - 18.9
+  content:
+    fontFamily: MiSans
+    fontSize: 24
+    color: '#000000'
+    lineHeight: 1.2
+    text: https://www.shuzhicloud.com/portal/
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-2
+  elementType: text
+  bounds:
+  - 908.21
+  - 515.23
+  - 37.8
+  - 18.9
+  content:
+    fontFamily: MiSans
+    fontSize: 24
+    color: '#000000'
+    lineHeight: 1.2
+    text: '3'
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: table-3
+  elementType: table
+  bounds:
+  - 247.18
+  - 79.52
+  - 640
+  - 288.93
+  columnWidths:
+  - 0.12
+  - 0.74
+  - 0.14
+  rowHeights:
+  - 0.21
+  - 0.26
+  - 0.26
+  - 0.26
+  rows:
+  - - text: 数智商机云 · 3步快速上手指引
+      fontSize: 24
+      color: $c1
+      fontFamily: MiSans
+      lineHeight: 1.2
+      align:
+      - left
+      - top
+      colSpan: 3
+  - - text: |-
+        <p style="text-align:center">STEP</p>
+        <p style="text-align:center"><span style="font-size:26.67px">1</span></p>
+      fontSize: 13.33
+      color: $c1
+      fontFamily: MiSans
+      lineHeight: 1.2
+      align:
+      - center
+      - bottom
+    - text: 初始设置与账号激活
+      fontSize: 18.67
+      color: $c1
+      fontFamily: MiSans
+      lineHeight: 1.2
+      align:
+      - left
+      - bottom
+      border:
+      - null
+      - null
+      - style: solid
+        width: 1.33
+        color: $c1
+      - null
+    - text: <p style="text-align:right">p.05</p>
+      fontSize: 18.67
+      color: $c1
+      fontFamily: MiSans
+      lineHeight: 1.2
+      align:
+      - right
+      - bottom
+      border:
+      - null
+      - null
+      - style: solid
+        width: 1.33
+        color: $c1
+      - null
+  - - text: |-
+        <p style="text-align:center">STEP</p>
+        <p style="text-align:center"><span style="font-size:26.67px">2</span></p>
+      fontSize: 13.33
+      color: $c1
+      fontFamily: MiSans
+      lineHeight: 1.2
+      align:
+      - center
+      - bottom
+    - text: 发起智能调研与方案生成
+      fontSize: 18.67
+      color: $c1
+      fontFamily: MiSans
+      lineHeight: 1.2
+      align:
+      - left
+      - bottom
+      border:
+      - style: solid
+        width: 1.33
+        color: $c1
+      - null
+      - style: solid
+        width: 1.33
+        color: $c1
+      - null
+    - text: <p style="text-align:right">p.09</p>
+      fontSize: 18.67
+      color: $c1
+      fontFamily: MiSans
+      lineHeight: 1.2
+      align:
+      - right
+      - bottom
+      border:
+      - style: solid
+        width: 1.33
+        color: $c1
+      - null
+      - style: solid
+        width: 1.33
+        color: $c1
+      - null
+  - - text: |-
+        <p style="text-align:center">STEP</p>
+        <p style="text-align:center"><span style="font-size:26.67px">3</span></p>
+      fontSize: 13.33
+      color: $c1
+      fontFamily: MiSans
+      lineHeight: 1.2
+      align:
+      - center
+      - bottom
+    - text: 成果查阅、协作与业务落地
+      fontSize: 18.67
+      color: $c1
+      fontFamily: MiSans
+      lineHeight: 1.2
+      align:
+      - left
+      - bottom
+      border:
+      - style: solid
+        width: 1.33
+        color: $c1
+      - null
+      - style: solid
+        width: 1.33
+        color: $c1
+      - null
+    - text: <p style="text-align:right">p.11</p>
+      fontSize: 18.67
+      color: $c1
+      fontFamily: MiSans
+      lineHeight: 1.2
+      align:
+      - right
+      - bottom
+      border:
+      - style: solid
+        width: 1.33
+        color: $c1
+      - null
+      - style: solid
+        width: 1.33
+        color: $c1
+      - null
+- elementId: shape-4
+  elementType: shape
+  bounds:
+  - 520.57
+  - 402.19
+  - 366.61
+  - 37.8
+  shapeName: roundRect
+  adjustments:
+  - 50000
+  fill:
+    type: solid
+    color: $c2
+- elementId: text-5
+  elementType: text
+  bounds:
+  - 524.35
+  - 405.97
+  - 359.06
+  - 30.24
+  content:
+    fontFamily: MiSans
+    fontSize: 13.33
+    color: '#FFFFFF'
+    lineHeight: 1.2
+    text: ※ 建议根据实际业务推进节奏分配各步骤的团队责任人
+    align:
+    - center
+    - middle
+- elementId: shape-6
+  elementType: shape
+  bounds:
+  - 850.42
+  - 394.56
+  - 13.27
+  - 9.58
+  shapeName: triangle
+  adjustments:
+  - 50000
+  fill:
+    type: solid
+    color: $c2

@@ -1,0 +1,111 @@
+pageType: cover
+background:
+  type: solid
+  color: $c1
+elements:
+- elementId: text-1
+  elementType: text
+  bounds:
+  - 49.13
+  - 154.61
+  - 861.73
+  - 200.31
+  content:
+    fontFamily: MiSans
+    fontSize: 24
+    color: '#000000'
+    lineHeight: 1.2
+    text: |
+      数智商机云
+      三步快速上手使用手册
+    align:
+    - left
+    - middle
+- elementId: text-2
+  elementType: text
+  bounds:
+  - 49.13
+  - 42.05
+  - 672.76
+  - 30.24
+  content:
+    fontFamily: MiSans
+    fontSize: 21.33
+    color: '#FFFFFF'
+    lineHeight: 1.2
+    text: 未来科技有限公司 专享版
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: shape-3
+  elementType: shape
+  bounds:
+  - 782.36
+  - 38.27
+  - 132.28
+  - 37.8
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+- elementId: text-4
+  elementType: text
+  bounds:
+  - 786.14
+  - 42.05
+  - 124.72
+  - 30.24
+  content:
+    fontFamily: MiSans
+    fontSize: 16
+    color: $c1
+    lineHeight: 1.2
+    text: LOGO
+    align:
+    - center
+    - middle
+    wrap: false
+- elementId: shape-5
+  elementType: shape
+  bounds:
+  - 655.96
+  - 126.63
+  - 117.17
+  - 117.17
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: $c2
+- elementId: text-6
+  elementType: text
+  bounds:
+  - 655.96
+  - 126.63
+  - 117.17
+  - 117.17
+  content:
+    fontFamily: MiSans
+    fontSize: 24
+    color: '#FFFFFF'
+    lineHeight: 1.2
+    text: |
+      <p style="text-align:center">10分钟</p>
+      <p style="text-align:center; margin-top:2.67px">上手</p>
+    align:
+    - center
+    - middle
+- elementId: shape-7
+  elementType: shape
+  bounds:
+  - 658.96
+  - 223.11
+  - 18.99
+  - 16.37
+  shapeName: triangle
+  adjustments:
+  - 50000
+  fill:
+    type: solid
+    color: $c2
+  rotation: -135

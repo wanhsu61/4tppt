@@ -1,0 +1,157 @@
+pageType: content
+background:
+  type: solid
+  color: '#FFFFFF'
+elements:
+- elementId: text-1
+  elementType: text
+  bounds:
+  - 911.99
+  - 515.23
+  - 30.24
+  - 18.9
+  content:
+    fontFamily: MiSans
+    fontSize: 24
+    color: '#000000'
+    lineHeight: 1.2
+    text: '7'
+    align:
+    - left
+    - middle
+    wrap: false
+- elementId: text-2
+  elementType: text
+  bounds:
+  - 23.59
+  - 516.79
+  - 320.96
+  - 18.9
+  content:
+    fontFamily: MiSans
+    fontSize: 24
+    color: '#000000'
+    lineHeight: 1.2
+    text: https://www.shuzhicloud.com/portal/
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: text-3
+  elementType: text
+  bounds:
+  - 49.13
+  - 17.54
+  - 861.73
+  - 30.24
+  content:
+    fontFamily: MiSans
+    fontSize: 24
+    color: '#000000'
+    lineHeight: 1.2
+    text: 日常登录与访问建议
+    align:
+    - left
+    - middle
+    wrap: false
+- elementId: text-4
+  elementType: text
+  bounds:
+  - 540.47
+  - 131.19
+  - 370.39
+  - 124.72
+  content:
+    fontFamily: MiSans
+    fontSize: 13.33
+    color: $c1
+    lineHeight: 1.8
+    text: |
+      <p>① 访问统一登录门户或点击企业内部工作台快捷入口。</p>
+      <p><span style="font-size:12px"> (首次注册完成后将自动收到欢迎通知与常用访问书签)</span></p>
+      <p>&nbsp;</p>
+      <p>② 使用已激活的企业邮箱/手机号及密码登录系统。</p>
+    align:
+    - left
+    - top
+- elementId: text-5
+  elementType: text
+  bounds:
+  - 540.47
+  - 347.8
+  - 370.39
+  - 41.57
+  content:
+    fontFamily: MiSans
+    fontSize: 9.33
+    color: $c1
+    lineHeight: 1.8
+    text: |
+      <p>※ 如遇密码遗忘，可在登录界面点击「忘记密码」通过企业安全邮箱自主重置。</p>
+      <p><u><span style="color:$c2">https://login.shuzhicloud.com</span></u></p>
+    align:
+    - left
+    - top
+- elementId: text-6
+  elementType: text
+  bounds:
+  - 540.47
+  - 407.09
+  - 370.39
+  - 18.9
+  content:
+    fontFamily: MiSans
+    fontSize: 9.33
+    color: $c1
+    lineHeight: 1.8
+    text: ※ 强烈建议将系统控制台首页加入浏览器书签收藏夹，便于日常快速访问。
+    align:
+    - left
+    - top
+    wrap: false
+- elementId: line-7
+  elementType: line
+  bounds:
+  - 536.69
+  - 337.59
+  - 377.95
+  - 0.01
+  viewBox:
+  - 377.95
+  - 0.01
+  points: 0,0 377.95,0.01
+  border:
+    style: solid
+    width: 1.33
+    color: $c1
+- elementId: shape-8
+  elementType: shape
+  bounds:
+  - 45.35
+  - 133.72
+  - 453.54
+  - 302.36
+  shapeName: roundRect
+  adjustments:
+  - 1781
+  fill:
+    type: solid
+    color: $c3
+- elementId: text-9
+  elementType: text
+  bounds:
+  - 49.13
+  - 137.5
+  - 445.98
+  - 294.8
+  content:
+    fontFamily: MiSans
+    fontSize: 13.33
+    color: '#FFFFFF'
+    lineHeight: 1.8
+    text: |
+      注册成功欢迎通知
+      与控制台快捷入口
+    align:
+    - center
+    - middle

@@ -1,0 +1,25 @@
+version: v2
+title: 深蓝商务 · SaaS 产品三步上手手册
+size:
+- 960
+- 540
+theme:
+  colors:
+    c1: '#1B224C'
+    c2: '#008E95'
+    c3: '#D4D9DF'
+pages:
+- pages/01.page
+- pages/02.page
+- pages/03.page
+- pages/04.page
+- pages/05.page
+- pages/06.page
+- pages/07.page
+- pages/08.page
+- pages/09.page
+- pages/10.page
+- pages/11.page
+- pages/12.page
+- pages/13.page
+- pages/14.page
